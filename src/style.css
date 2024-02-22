@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+     font-family: 'acid_groteskmedium';
+     src: url('../fonts/acidgrotesk-medium-webfont.woff2') format('woff2'),
+          url('../fonts/acidgrotesk-medium-webfont.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+
+}
+
+#default-tab button[aria-selected="true"] svg .fill-color {
+     fill: #FF6666;
+}
+
+#default-tab button[aria-selected="true"] span {
+     color: #FF6666;
+     border-bottom: 1px solid #FF6666;
+     font-weight: 600;
+}
+
+#accordion-collapse button[aria-expanded="true"] {
+     background-color: transparent;
+}
+
+#accordion-collapse button[aria-expanded="true"] .plus {
+     display: block !important;
+}
+
+#accordion-collapse button[aria-expanded="true"] .minus {
+     display: none !important;
+}
+
+#accordion-collapse2 button[aria-expanded="true"] .plus {
+     display: block !important;
+}
+
+#accordion-collapse2 button[aria-expanded="true"] .minus {
+     display: none !important;
+}
+
+#accordion-collapse button[aria-expanded="false"] .plus {
+     display: none !important;
+}
+
+#accordion-collapse button[aria-expanded="false"] .minus {
+     display: block !important;
+}
+
+#accordion-collapse2 button[aria-expanded="false"] .plus {
+     display: none !important;
+}
+
+#accordion-collapse2 button[aria-expanded="false"] .minus {
+     display: block !important;
+}
+
+#default-tab-content button[aria-expanded="true"] {
+     background-color: transparent;
+     color: #F66;
+     font-weight: 500;
+}
+
+#accordion-color button[aria-expanded="true"] .heading-box svg path {
+     fill: #FD4F50;
+}
+
+#accordion-color button[aria-expanded="true"] .plus {
+     display: none;
+}
+
+#accordion-color button[aria-expanded="true"] .minus {
+     display: block;
+}
+
+::-WebKit-input-placeholder:after {
+     content: "*";
+     color: red;
+}
+
+select:not([size]) {
+     background-position: right 24px center;
+}

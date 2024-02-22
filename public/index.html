@@ -1,0 +1,1262 @@
+<!doctype html>
+<html>
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+          rel="stylesheet">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+     <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+     <div class="font-urbanist overflow-hidden">
+          <header>
+               <nav class="bg-white dark:bg-gray-900 fixed w-full py-5 z-20 top-0 left-0 ">
+                    <div
+                         class="max-w-[1590px] flex flex-wrap items-center justify-between mx-auto xl:px-4 md:px-16 px-6">
+                         <div class="flex items-center xl:order-1 order-2">
+                              <ul class="xl:flex hidden items-center 2xl:mr-[198px] mr-5">
+                                   <li class="mr-1"><a href="#"><img src="images/golbe.svg" alt=""></a></li>
+                                   <li class="mr-[2px]"><a href=" #"
+                                             class="text-[13px] font-urbanist font-semibold leading-[22.5px] tracking-[0.65px] text-gray-1000">
+                                             EN</a>
+                                   </li>
+                                   <li class="mr-[2px]"><a href="#"
+                                             class="text-[13px] font-urbanist font-semibold leading-[22.5px] tracking-[0.65px] text-black-1000">|</a>
+                                   </li>
+                                   <li><a href="#"
+                                             class="text-[13px] font-urbanist font-semibold leading-[22.5px] tracking-[0.65px] text-black-1000">SE</a>
+                                   </li>
+                              </ul>
+                              <a href="https://flowbite.com/" class="flex items-center">
+                                   <img src="images/logo.svg" class="md:w-auto w-[150px] md:h-8 mr-3"
+                                        alt="Flowbite Logo">
+                              </a>
+                         </div>
+                         <div class="flex xl:order-2 order-1">
+                              <a href="#"
+                                   class="xl:flex hidden items-center bg-transparent w-[180px] rounded-full h-11 justify-center font-urbanist text-base font-semibold leading-[22.5px] tracking-[0.75px] text-black-1000 border border-black-1000">Kontakta
+                                   oss<svg class="ml-2" xmlns="http://www.w3.org/2000/svg" width="14" height="11"
+                                        viewBox="0 0 14 11" fill="none">
+                                        <path d="M14 5.13333L8.87196 10.2667L7.91896 9.31268L11.3906 5.81475H0V4.45192H11.3906L7.91896 0.953982L8.87196 0L14 5.13333Z"
+                                             fill="#1A1D20" />
+                                   </svg></a>
+
+                              <button data-collapse-toggle="navbar-sticky" type="button"
+                                   class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg xl:hidden focus:outline-none focus:ring-0 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                                   aria-controls="navbar-sticky" aria-expanded="false">
+                                   <span class="sr-only">Open main menu</span>
+                                   <svg xmlns="http://www.w3.org/2000/svg" width="29" height="21" viewBox="0 0 29 21"
+                                        fill="none">
+                                        <rect width="29" height="3" fill="#1A1D20" />
+                                        <rect y="9" width="29" height="3" fill="#1A1D20" />
+                                        <rect y="18" width="29" height="3" fill="#1A1D20" />
+                                   </svg>
+                              </button>
+                         </div>
+                         <div class="items-center justify-between xl:h-auto h-screen xl:overflow-hidden overflow-scroll xl:pb-0 pb-32 hidden xl:pt-0 md:pt-[62px] pt-10 xl:pl-0 md:pl-[54px] pl-7 xl:pr-0 pr-[66px] w-full xl:flex xl:w-auto xl:order-1 xl:static absolute md:top-[84px] top-20 xl:max-w-full left-0 xl:bg-transparent bg-gray-1300 max-w-[300px]"
+                              id="navbar-sticky">
+                              <ul
+                                   class="flex flex-col xl:items-center   xl:flex-row  md:mt-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                                   <li><a href="#"
+                                             class="flex md:mb-[66px] mb-14 xl:hidden items-center bg-transparent w-[180px] rounded-full h-11 justify-center font-urbanist text-base font-semibold leading-[22.5px] tracking-[0.75px] text-black-1000 border border-black-1000">Kontakta
+                                             oss<svg class="ml-2" xmlns="http://www.w3.org/2000/svg" width="14"
+                                                  height="11" viewBox="0 0 14 11" fill="none">
+                                                  <path d="M14 5.13333L8.87196 10.2667L7.91896 9.31268L11.3906 5.81475H0V4.45192H11.3906L7.91896 0.953982L8.87196 0L14 5.13333Z"
+                                                       fill="#1A1D20"></path>
+                                             </svg></a></li>
+                                   <li class="xl:mr-12 xl:mb-0 mb-10">
+                                        <a href="#"
+                                             class="block font-urbanist text-[15px] font-semibold leading-[22.5px] underline-offset-4 tracking-[0.75px] text-orange-1100 underline"
+                                             aria-current="page">Dölj din identitet</a>
+                                   </li>
+                                   <li class="xl:mr-12 xl:mb-0 mb-10">
+                                        <a href="#"
+                                             class="block font-urbanist text-[15px] font-medium leading-[22.5px] tracking-[0.75px] text-black-1100">Vanliga
+                                             frågor</a>
+                                   </li>
+                                   <li class="xl:mr-20 xl:mb-0 mb-10">
+                                        <a href="#"
+                                             class="block font-urbanist text-[15px] font-medium leading-[22.5px] tracking-[0.75px] text-black-1100">Om
+                                             Oss</a>
+                                   </li>
+                                   <li class="">
+                                        <a href="#"
+                                             class="xl:flex hidden items-center bg-orange-1000 w-[180px] rounded-full h-11 justify-center font-urbanist text-base font-semibold leading-[22.5px] tracking-[0.75px] text-white">Logga
+                                             in<svg class="ml-2" xmlns="http://www.w3.org/2000/svg" width="14"
+                                                  height="11" viewBox="0 0 14 11" fill="none">
+                                                  <path d="M14 5.13333L8.87196 10.2667L7.91896 9.31268L11.3906 5.81475H0V4.45192H11.3906L7.91896 0.953982L8.87196 0L14 5.13333Z"
+                                                       fill="white" />
+                                             </svg></a>
+                                   </li>
+                                   <li class="xl:mr-20 xl:hidden block xl:mb-0 mb-10">
+                                        <a href="#"
+                                             class="block font-urbanist text-[15px] font-medium leading-[22.5px] tracking-[0.75px] text-black-1100">Blogg</a>
+                                   </li>
+                                   <li class="xl:mr-20 xl:hidden block xl:mb-0 mb-10">
+                                        <a href="#"
+                                             class="block font-urbanist text-[15px] font-medium leading-[22.5px] tracking-[0.75px] text-black-1100">Press</a>
+                                   </li>
+                              </ul>
+                              <div class="text-start xl:hidden block xl:mt-0 mt-4">
+                                   <h6
+                                        class="text-sm text-black-1000 font-semibold font-acid_groteskmedium leading-7 tracking-[0.7px]">
+                                        Följ oss</h6>
+                                   <ul class="flex items-center mb-16  mt-4">
+                                        <li><a href="#"><img src="images/insta.svg" alt=""></a></li>
+                                        <li class="mx-[18px]"><a href="#"><img src="images/facebook.svg" alt=""></a>
+                                        </li>
+                                        <li><a href="#"><img src="images/linkdin.svg" alt=""></a></li>
+
+                                   </ul>
+                                   <ul class="flex xl:hidden items-center 2xl:mr-[198px] mr-5">
+                                        <li class="mr-1"><a href="#"><img src="images/golbe.svg" alt=""></a></li>
+                                        <li class="mr-[2px]"><a href=" #"
+                                                  class="text-[13px] font-urbanist font-semibold leading-[22.5px] tracking-[0.65px] text-gray-1000">
+                                                  EN</a>
+                                        </li>
+                                        <li class="mr-[2px]"><a href="#"
+                                                  class="text-[13px] font-urbanist font-semibold leading-[22.5px] tracking-[0.65px] text-black-1000">|</a>
+                                        </li>
+                                        <li><a href="#"
+                                                  class="text-[13px] font-urbanist font-semibold leading-[22.5px] tracking-[0.65px] text-black-1000">SE</a>
+                                        </li>
+                                   </ul>
+                              </div>
+                         </div>
+                         <div class="order-3">
+                              <a href="#"
+                                   class="xl:hidden block   font-urbanist text-sm font-semibold leading-[22.5px] tracking-[0.75px] text-orange-1000">Logga
+                                   in </a>
+                         </div>
+                    </div>
+               </nav>
+
+          </header>
+          <section
+               class="bg-[url('../images/hero-bg.png')] xl:pt-[241px] md:pt-20 pt-[64px] pb-10 bg-no-repeat bg-cover">
+               <div class="max-w-[1187px] mx-auto xl:px-4 md:px-16 px-6">
+                    <div class="flex flex-wrap xl:-mx-2.5">
+                         <div class="xl:w-1/2 lg:w-[54%] xl:px-2.5 pt-16">
+                              <div class="xl:pl-[92px]">
+                                   <span
+                                        class="text-white font-urbanist text-sm font-semibold leading-5 md:mb-2.5 mb-3 bg-orange-1000 rounded-full md:px-6 px-2.5 md:py-1.5 pt-1.5 pb-1 inline-flex items-center justify-center tracking-[0.7px]"><span
+                                             class="md:block hidden">Bli
+                                             dold </span>från 14kr/mån</span>
+                                   <h1
+                                        class="text-white font-extrabold md:leading-[60px] leading-[48px] mb-3 xl:tracking-[2.6px] tracking-[2.4px] xl:text-[52px] text-5xl">
+                                        Dölj din
+                                        offentliga information</h1>
+                                   <p
+                                        class="text-lg text-white md:block hidden font-semibold leading-7 max-w-[450px] tracking-[0.9px]">
+                                        Vi är
+                                        här för att
+                                        bevara din digitala integritet och ta bort och skydda din personliga
+                                        information från att exponeras offentligt online.</p>
+                                   <div class="xl:mt-[34px] md:mt-11 mt-[30px]">
+                                        <img src="images/vit.svg" alt="">
+                                        <img src="images/stars.svg">
+                                        <h6
+                                             class="text-white mt-[2px] font-semibold text-sm leading-5 tracking-[0.7px]">
+                                             TrustScore <span class="font-extrabold">4.5</span></h6>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="xl:w-1/2 lg:w-[46%] xl:mt-0 mt-8 xl:px-2.5">
+                              <img src="images/hero-img.png" alt="">
+                         </div>
+                    </div>
+               </div>
+          </section>
+          <section class="-mt-[91px] relative">
+               <div class="max-w-[1187px] mx-auto md:px-4">
+                    <div class="text-center">
+                         <h6 class="text-white md:block hidden font-urbanist mb-5 font-medium text-base">Bli av med:
+                         </h6>
+                    </div>
+                    <div
+                         class="bg-white max-w-[950px] mx-auto md:shadow-4xl py-4 md:px-11 px-6 md:rounded-2xl border border-black/10">
+                         <div class="text-center">
+                              <h6
+                                   class="text-black-1000 text-center inline-block md:hidden font-urbanist mb-4 font-medium text-base">
+                                   Bli av
+                                   med:
+                              </h6>
+                         </div>
+                         <ul class="md:flex grid grid-cols-3 md:gap-0 gap-6 justify-between">
+                              <li class="text-center ">
+                                   <div class="min-h-[44px] flex items-end justify-center"><img
+                                             src="images/addres-icon.svg" alt="" class="inline-block ">
+                                   </div><span class="text-xs font-medium text-black-1000 mt-2.5 leading-6">Offentlig
+                                        adress</span>
+                              </li>
+                              <li class="text-center ">
+                                   <div class="min-h-[44px] flex items-end justify-center"><img
+                                             src="images/person-icon.svg" alt="" class="inline-block ">
+                                   </div><span
+                                        class="text-xs font-medium text-black-1000 mt-2.5 leading-6">Personuppgifter</span>
+                              </li>
+                              <li class="text-center">
+                                   <div class="min-h-[44px] flex items-end justify-center"><img
+                                             src="images/bosta-icon.svg" alt="" class="inline-block"></div><span
+                                        class="text-xs font-medium text-black-1000 mt-2.5 leading-6">Bostadskapning</span>
+                              </li>
+                              <li class="text-center">
+                                   <div class="min-h-[44px] flex items-end justify-center"><img
+                                             src="images/relation.svg" alt="" class="inline-block "></div><span
+                                        class="text-xs font-medium text-black-1000 mt-2.5 leading-6">Relationsstatus</span>
+                              </li>
+                              <li class="text-center">
+                                   <div class="min-h-[44px] flex items-end justify-center"><img src="images/samtal.svg"
+                                             alt="" class="inline-block ">
+                                   </div><span
+                                        class="text-xs font-medium text-black-1000 mt-2.5 leading-6">Säljsamtal</span>
+                              </li>
+                              <li class="text-center">
+                                   <div class="min-h-[44px] flex items-end justify-center"><img
+                                             src="images/dairy-icon.svg" alt="" class="inline-block "></div><span
+                                        class="text-xs font-medium text-black-1000 mt-2.5 leading-6">Direktreklam</span>
+                              </li>
+                         </ul>
+                    </div>
+               </div>
+          </section>
+          <section class="xl:pt-[75px] xl:pb-0 pb-[75px] lg:pt-[100px] relative">
+               <div class="max-w-[1187px] mx-auto md:px-4 px-6">
+                    <div class="flex flex-wrap md:-mx-2.5">
+                         <div class="xl:w-1/2 lg:w-3/5 w-full lg:px-2.5 pt-12">
+                              <div class="md:pl-[92px]">
+                                   <h1
+                                        class="text-black-1000 flex items-center font-bold leading-[62px] md:mb-4 mb-2 text-[40px]">
+                                        <span class="md:block hidden mr-2"> Ett</span><span class="text-orange-1000">
+                                             samhällsproblem</span>
+                                   </h1>
+                                   <p class="text-sm text-black-1200 font-semibold leading-6 mb-10 tracking-[0.7px]">
+                                        Svenskar står inför en unik utmaning där personlig information, inklusive
+                                        adress, telefonnummer, lön, tillgångar som bil och hus, samt civilstånd, enkelt
+                                        kan hittas med en enkel sökning på internet. Detta sårbarhetsläge lockar
+                                        brottslingar och stalkers. Dessutom kan kriminella registrera sig på andras
+                                        adresser, vilket årligen drabbar ett betydande antal människor och till och med
+                                        har lett till hämndaktioner mot oskyldiga.</p>
+                                   <a href="#"
+                                        class="flex items-center bg-orange-1000 w-[250px] rounded-full h-11 justify-center font-urbanist text-sm font-semibold leading-[22.5px] tracking-[0.75px] text-white">Dölj
+                                        din identitet<svg class="ml-2" xmlns="http://www.w3.org/2000/svg" width="14"
+                                             height="11" viewBox="0 0 14 11" fill="none">
+                                             <path d="M14 5.13333L8.87196 10.2667L7.91896 9.31268L11.3906 5.81475H0V4.45192H11.3906L7.91896 0.953982L8.87196 0L14 5.13333Z"
+                                                  fill="white"></path>
+                                        </svg></a>
+                              </div>
+                         </div>
+                         <div class=" md:hidden block absolute bottom-0 right-0 -z-10">
+                              <img src="images/mobile-subtract.png" alt="">
+                         </div>
+                         <div class="xl:w-1/2 md:block hidden lg:w-2/5 w-full lg:px-2.5">
+                              <div class="text-center">
+                                   <img src="images/subtract-img.png" class="inline-block" alt="">
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </section>
+          <section class="bg-gray-1100 md:pt-[92px] pt-16 xl:pb-[100px] md:pb-[70px] pb-[45px]">
+               <div class="max-w-[1187px] mx-auto xl:px-4 md:px-10 px-6">
+                    <div class="flex items-center justify-between">
+                         <div>
+                              <h2 class="text-black-1000 font-bold text-[40px] leading-[62px]">Vår lösning till dig</h2>
+                         </div>
+                         <div>
+                              <a href="#"
+                                   class="md:flex hidden items-center bg-transparent w-[180px] rounded-full h-11 justify-center font-urbanist text-sm font-semibold leading-[22.5px] tracking-[0.75px] text-black-1000 border border-black-1000">Frågor
+                                   & Svar<svg class="ml-2" xmlns="http://www.w3.org/2000/svg" width="14" height="11"
+                                        viewBox="0 0 14 11" fill="none">
+                                        <path d="M14 5.13333L8.87196 10.2667L7.91896 9.31268L11.3906 5.81475H0V4.45192H11.3906L7.91896 0.953982L8.87196 0L14 5.13333Z"
+                                             fill="#1A1D20"></path>
+                                   </svg></a>
+                         </div>
+                    </div>
+                    <div class="grid lg:grid-cols-3 md:mt-10 mt-16 xl:gap-9 gap-6">
+                         <div class="shadow-5xl pt-[42px] px-6 pb-14 rounded-2xl bg-white border border-black/10">
+                              <div>
+                                   <img src="images/icon-1.svg" alt="">
+                                   <h4 class="text-black my-[21px] text-[28px] font-bold leading-6 tracking-[1.4px]">1.
+                                        Döljning
+                                   </h4>
+                                   <p class="text-sm font-medium leading-6 tracking-[0.7px] text-black-1200">Vi hjälper
+                                        dig skydda din
+                                        integritet mot webbplatser som Ratsit, MrKoll, Eniro och
+                                        Hitta, som avsiktligt komplicerar processen för att ta bort dina uppgifter och
+                                        byter ständigt sina metoder. Deras affärsmodell bygger på att visa och sälja din
+                                        information till allmänheten.</p>
+                              </div>
+                         </div>
+                         <div class="shadow-5xl pt-[42px] px-6 pb-7 rounded-2xl bg-white border border-black/10">
+                              <div>
+                                   <img src="images/icon-2.svg" alt="">
+                                   <h4 class="text-black my-[21px] text-[28px] font-bold leading-6 tracking-[1.4px]">2.
+                                        Övervakning
+                                   </h4>
+                                   <p class="text-sm font-medium leading-6 tracking-[0.7px] text-black-1200">Vi ger dig
+                                        en varning när webbplatser återpublicerar dina uppgifter, vilket möjliggör snabb
+                                        borttagning. Dessa uppgifter kan inte tas bort permanent och återpubliceras
+                                        vanligtvis inom 3-12 månader. Dessutom är det osäkert om de exakta tidslinjerna
+                                        för borttagning som de uppger på deras webbplatser är korrekta.</p>
+                              </div>
+                         </div>
+                         <div class="shadow-5xl pt-[42px] px-6 pb-14 rounded-2xl bg-white border border-black/10">
+                              <div>
+                                   <img src="images/icon-3.svg" alt="">
+                                   <h4 class="text-black my-[21px] text-[28px] font-bold leading-6 tracking-[1.4px]">3.
+                                        Adresslarm
+                                   </h4>
+                                   <p class="text-sm font-medium leading-6 tracking-[0.7px] text-black-1200">Vi erbjuder
+                                        ett unikt adresslarm som skickar omedelbara e-post- och SMS-varningar så fort
+                                        någon registrerar sig på din adress, oavsett om dina uppgifter finns på
+                                        webbplatser som Ratsit eller inte. Vi är ensamma om att övervaka din adress utan
+                                        att exponera den på något sätt.</p>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </section>
+          <section class="bg-orange-1000 md:py-12 py-16 shadow-6xl border border-black/10">
+               <div class="max-w-[1187px] mx-auto px-4">
+                    <div
+                         class="md:flex flex-nowrap md:text-start text-center max-w-[715px] mx-auto items-center justify-center">
+                         <div>
+                              <img src="images/bouns-icon.svg" class="inline-block" alt="">
+                         </div>
+                         <div class="flex-1 md:pl-[85px] md:mt-0 mt-8">
+                              <h4 class="text-white text-[32px] font-bold leading-6 mb-4 tracking-[1.6px]">
+                                   Bonusskydd
+                              </h4>
+                              <p class="text-white text-[15px] font-semibold leading-6 tracking-[0.75px]">Som bonus
+                                   avindexerar vi dig från Google för att säkerställa att dina uppgifter
+                                   inte visas i sökresultat, samt spärr mot oönskade säljsamtal och direktreklam.
+                                   Det ger en extra nivå av säkerhet och bekvämlighet.</p>
+                         </div>
+                    </div>
+               </div>
+          </section>
+          <section class="bg-bg-layer xl:pt-24 md:pt-20 pt-[60px] xl:pb-[123px] md:pb-28 pb-[87px]">
+               <div class="max-w-[1187px] mx-auto xl:px-4 md:px-7 px-6">
+                    <div class="text-center">
+                         <h2 class="text-black-1000 xl:text-[54px] text-5xl font-bold leading-[62px]">Bli skyddad,
+                              prenumerera<span class="text-orange-1000"> idag</span></h2>
+                    </div>
+                    <div
+                         class="grid xl:grid-cols-4 md:grid-cols-2 xl:gap-5 md:gap-2.5 gap-[45px] items-end xl:pt-28 pt-20">
+                         <div class="">
+                              <div class="text-center  border-b-2 border-light-black pb-6">
+                                   <img src="images/home-icon.svg" alt="" class="inline-block">
+                                   <h5 class="text-base text-black-1000 font-bold leading-9 tracking-[0.8px]">
+                                        Bostadskapningsskydd</h5>
+                                   <p class="text-sm font-medium leading-5 tracking-[0.7px] text-gray-1200">Direkt
+                                        varning via mail</p>
+                                   <a href="#"
+                                        class="bg-orange-1200 rounded-md flex items-center mt-6 mx-auto justify-center  max-w-[185px] text-white text-sm font-bold leading-[22.5px] tracking-[0.7px] h-9 w-full">Lägg
+                                        till<img src="images/plus-icon.svg" class="ml-2.5" alt=""></a>
+                                   <h6 class="text-[13px] font-medium mt-2 tracking-[0.65px] text-black-1300"><span
+                                             class="font-bold">+3
+                                             kr</span> /mån</h6>
+                                   <ul class="flex items-center mt-5 justify-center">
+                                        <li><img src="images/icon.svg" alt=""></li>
+                                        <li class="text-blue-1000 ml-1.5 text-[13px] font-medium tracking-[0.65px]">Vad
+                                             är
+                                             detta?</li>
+                                   </ul>
+                              </div>
+                              <div class="text-center pt-6  pb-6">
+                                   <img src="images/percentage-icon.svg" alt="" class="inline-block">
+                                   <h5 class="text-base text-black-1000 font-bold leading-9 tracking-[0.8px]">
+                                        Reklam & samtalsspärr</h5>
+                                   <p class="text-sm font-medium leading-5 tracking-[0.7px] text-gray-1200">Direkt
+                                        varning via mail</p>
+                                   <a href="#"
+                                        class="bg-orange-1200 rounded-md flex items-center mt-6 mx-auto justify-center  max-w-[185px] text-white text-sm font-bold leading-[22.5px] tracking-[0.7px] h-9 w-full">Lägg
+                                        till<img src="images/plus-icon.svg" class="ml-2.5" alt=""></a>
+                                   <h6 class="text-[13px] font-medium mt-2 tracking-[0.65px] text-black-1300"><span
+                                             class="font-bold">+49 kr</h6>
+                                   <ul class="flex items-center mt-5 justify-center">
+                                        <li><img src="images/icon.svg" alt=""></li>
+                                        <li class="text-blue-1000 ml-1.5 text-[13px] font-medium tracking-[0.65px]">Vad
+                                             är
+                                             detta?</li>
+                                   </ul>
+                              </div>
+                         </div>
+                         <div class="rounded-2xl border bg-white border-black/10 xl:px-4 px-3 py-6 drop-shadow-7xl">
+                              <h4 class="text-black-1000 text-[32px] leading-9 font-medium mb-3">1 år</h4>
+                              <h6 class="text-sm text-gray-1200 font-medium leading-5">Totalt skydd i<span
+                                        class="font-bold"> 1
+                                        år.</span></h6>
+                              <div class="border-t border-light-black pt-5 mt-[22px]">
+                                   <div class="flex items-end mb-7">
+                                        <div class="flex items-end pt-5 justify-between w-full">
+                                             <h2 class="text-5xl leading-[2px] text-black-1000 font-bold">
+                                                  19<span class="text-[26px] font-medium">Kr</span><span
+                                                       class="text-gray-1200 text-base font-medium">/mån</span>
+                                             </h2>
+                                             <p class="text-gray-1200 text-[13px] font-medium">228kr /år</p>
+
+                                        </div>
+                                   </div>
+                                   <a href="#"
+                                        class="bg-black-1000 rounded-md text-white text-base flex h-10 items-center justify-center font-bold leading-[22.5px]">Välj<svg
+                                             xmlns="http://www.w3.org/2000/svg" width="17" height="13" class="ml-2"
+                                             viewBox="0 0 17 13" fill="none">
+                                             <path d="M16.1891 6.45165L10.584 12.4632L9.54239 11.346L13.3369 7.24965H0.886841V5.65365H13.3369L9.54239 1.55726L10.584 0.440063L16.1891 6.45165Z"
+                                                  fill="white" />
+                                        </svg></a>
+                                   <ul class="flex items-center mb-2.5 mt-7">
+                                        <li><img src="images/tick-icon.svg" alt=""></li>
+                                        <li class="ml-2"><span
+                                                  class="text-sm font-medium leading-5 tracking-[0.7px] text-black-1200">Borttagning
+                                                  Online</span></li>
+                                   </ul>
+
+                                   <ul class="flex items-center mb-2.5">
+                                        <li><img src="images/tick-icon.svg" alt=""></li>
+                                        <li class="ml-2"><span
+                                                  class="text-sm font-medium leading-5 tracking-[0.7px] text-black-1200">365
+                                                  Kundsupport</span></li>
+                                   </ul>
+                                   <ul class="flex items-center mb-2.5">
+                                        <li><img src="images/tick-icon.svg" alt=""></li>
+                                        <li class="ml-2"><span
+                                                  class="text-sm font-medium leading-5 tracking-[0.7px] text-black-1200">Ständig
+                                                  Övervakning</span></li>
+                                   </ul>
+                                   <ul class="flex items-center mb-2.5">
+                                        <li><img src="images/tick-icon.svg" alt=""></li>
+                                        <li class="ml-2"><span
+                                                  class="text-sm font-medium leading-5 tracking-[0.7px] text-black-1200">Löpande
+                                                  Validering</span></li>
+                                   </ul>
+                                   <ul class="flex items-center mb-2.5">
+                                        <li><img src="images/tick-icon.svg" alt=""></li>
+                                        <li class="ml-2"><span
+                                                  class="text-sm font-medium leading-5 tracking-[0.7px] text-black-1200">Maximal
+                                                  Integritet</span></li>
+                                   </ul>
+                                   <ul class="flex items-center">
+                                        <li><img src="images/tick-icon.svg" alt=""></li>
+                                        <li class="ml-2"><span
+                                                  class="text-sm font-medium leading-5 tracking-[0.7px] text-black-1200">Avindexering
+                                                  Sökmotorer</span></li>
+                                   </ul>
+                              </div>
+                         </div>
+                         <div class="bg-orange-1000 rounded-2xl px-1 pb-1 pt-2">
+                              <div class="text-center pb-2">
+                                   <h6 class="text-white text-[15px] font-bold leading-5">Mest Populär</h6>
+                              </div>
+                              <div
+                                   class="rounded-2xl border bg-white border-black/10 xl:px-4 px-3 py-6 drop-shadow-7xl">
+                                   <h4 class="text-black-1000 text-[32px] leading-9 font-medium mb-3">1 år</h4>
+                                   <h6 class="text-sm text-gray-1200 font-medium leading-5">Totalt skydd i<span
+                                             class="font-bold"> 2 år</span></h6>
+                                   <div class="border-t border-light-black pt-7 mt-[22px]">
+                                        <div class="flex items-end mb-7">
+                                             <div class="flex items-end justify-between w-full">
+                                                  <h2 class="text-5xl leading-[2px] text-black-1000 font-bold">
+                                                       16<span class="text-[26px] font-medium">Kr</span><span
+                                                            class="text-gray-1200 text-base font-medium">/mån</span>
+                                                  </h2>
+                                                  <div class="text-end">
+                                                       <p class="text-gray-1200 text-[13px] font-medium">228kr /år</p>
+                                                       <h6 class="text-sm text-blue-1100 font-extrabold leading-5">Spara
+                                                            17%</h6>
+                                                  </div>
+
+
+                                             </div>
+                                        </div>
+                                        <a href="#"
+                                             class="bg-orange-1000 rounded-md text-white text-base flex h-10 items-center justify-center font-bold leading-[22.5px]">Välj<svg
+                                                  xmlns="http://www.w3.org/2000/svg" width="17" height="13" class="ml-2"
+                                                  viewBox="0 0 17 13" fill="none">
+                                                  <path d="M16.1891 6.45165L10.584 12.4632L9.54239 11.346L13.3369 7.24965H0.886841V5.65365H13.3369L9.54239 1.55726L10.584 0.440063L16.1891 6.45165Z"
+                                                       fill="white" />
+                                             </svg></a>
+                                        <ul class="flex items-center mb-2.5 mt-7">
+                                             <li><img src="images/tick-icon.svg" alt=""></li>
+                                             <li class="ml-2"><span
+                                                       class="text-sm font-medium leading-5 tracking-[0.7px] text-black-1200">Borttagning
+                                                       Online</span></li>
+                                        </ul>
+
+                                        <ul class="flex items-center mb-2.5">
+                                             <li><img src="images/tick-icon.svg" alt=""></li>
+                                             <li class="ml-2"><span
+                                                       class="text-sm font-medium leading-5 tracking-[0.7px] text-black-1200">365
+                                                       Kundsupport</span></li>
+                                        </ul>
+                                        <ul class="flex items-center mb-2.5">
+                                             <li><img src="images/tick-icon.svg" alt=""></li>
+                                             <li class="ml-2"><span
+                                                       class="text-sm font-medium leading-5 tracking-[0.7px] text-black-1200">Ständig
+                                                       Övervakning</span></li>
+                                        </ul>
+                                        <ul class="flex items-center mb-2.5">
+                                             <li><img src="images/tick-icon.svg" alt=""></li>
+                                             <li class="ml-2"><span
+                                                       class="text-sm font-medium leading-5 tracking-[0.7px] text-black-1200">Löpande
+                                                       Validering</span></li>
+                                        </ul>
+                                        <ul class="flex items-center mb-2.5">
+                                             <li><img src="images/tick-icon.svg" alt=""></li>
+                                             <li class="ml-2"><span
+                                                       class="text-sm font-medium leading-5 tracking-[0.7px] text-black-1200">Maximal
+                                                       Integritet</span></li>
+                                        </ul>
+                                        <ul class="flex items-center">
+                                             <li><img src="images/tick-icon.svg" alt=""></li>
+                                             <li class="ml-2"><span
+                                                       class="text-sm font-medium leading-5 tracking-[0.7px] text-black-1200">Avindexering
+                                                       Sökmotorer</span></li>
+                                        </ul>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="bg-black-1000 rounded-2xl px-1 pb-1 pt-2">
+                              <div class="text-center pb-2">
+                                   <h6 class="text-white text-[15px] font-bold leading-5">Bäst Värde</h6>
+                              </div>
+                              <div
+                                   class="rounded-2xl border bg-white border-black/10 xl:px-4 px-3 py-6 drop-shadow-7xl">
+                                   <h4 class="text-black-1000 text-[32px] leading-9 font-medium mb-3">3 år</h4>
+                                   <h6 class="text-sm text-gray-1200 font-medium leading-5">Totalt skydd i<span
+                                             class="font-bold"> 3 år</span></h6>
+                                   <div class="border-t border-light-black pt-7 mt-[22px]">
+                                        <div class="flex items-end mb-7">
+                                             <div class="flex items-end justify-between w-full">
+                                                  <h2 class="text-5xl leading-[2px] text-black-1000 font-bold">
+                                                       14<span class="text-[26px] font-medium">Kr</span><span
+                                                            class="text-gray-1200 text-base font-medium">/mån</span>
+                                                  </h2>
+                                                  <div class="text-end">
+                                                       <p class="text-gray-1200 text-[13px] font-medium">168kr /år</p>
+                                                       <h6 class="text-sm text-orange-1100 font-extrabold leading-5">
+                                                            Spara
+                                                            34%</h6>
+                                                  </div>
+
+
+                                             </div>
+                                        </div>
+                                        <a href="#"
+                                             class="bg-black-1000 rounded-md text-white text-base flex h-10 items-center justify-center font-bold leading-[22.5px]">Välj<svg
+                                                  xmlns="http://www.w3.org/2000/svg" width="17" height="13" class="ml-2"
+                                                  viewBox="0 0 17 13" fill="none">
+                                                  <path d="M16.1891 6.45165L10.584 12.4632L9.54239 11.346L13.3369 7.24965H0.886841V5.65365H13.3369L9.54239 1.55726L10.584 0.440063L16.1891 6.45165Z"
+                                                       fill="white" />
+                                             </svg></a>
+                                        <ul class="flex items-center mb-2.5 mt-7">
+                                             <li><img src="images/tick-icon.svg" alt=""></li>
+                                             <li class="ml-2"><span
+                                                       class="text-sm font-medium leading-5 tracking-[0.7px] text-black-1200">Borttagning
+                                                       Online</span></li>
+                                        </ul>
+
+                                        <ul class="flex items-center mb-2.5">
+                                             <li><img src="images/tick-icon.svg" alt=""></li>
+                                             <li class="ml-2"><span
+                                                       class="text-sm font-medium leading-5 tracking-[0.7px] text-black-1200">365
+                                                       Kundsupport</span></li>
+                                        </ul>
+                                        <ul class="flex items-center mb-2.5">
+                                             <li><img src="images/tick-icon.svg" alt=""></li>
+                                             <li class="ml-2"><span
+                                                       class="text-sm font-medium leading-5 tracking-[0.7px] text-black-1200">Ständig
+                                                       Övervakning</span></li>
+                                        </ul>
+                                        <ul class="flex items-center mb-2.5">
+                                             <li><img src="images/tick-icon.svg" alt=""></li>
+                                             <li class="ml-2"><span
+                                                       class="text-sm font-medium leading-5 tracking-[0.7px] text-black-1200">Löpande
+                                                       Validering</span></li>
+                                        </ul>
+                                        <ul class="flex items-center mb-2.5">
+                                             <li><img src="images/tick-icon.svg" alt=""></li>
+                                             <li class="ml-2"><span
+                                                       class="text-sm font-medium leading-5 tracking-[0.7px] text-black-1200">Maximal
+                                                       Integritet</span></li>
+                                        </ul>
+                                        <ul class="flex items-center">
+                                             <li><img src="images/tick-icon.svg" alt=""></li>
+                                             <li class="ml-2"><span
+                                                       class="text-sm font-medium leading-5 tracking-[0.7px] text-black-1200">Avindexering
+                                                       Sökmotorer</span></li>
+                                        </ul>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </section>
+          <section>
+               <div class="max-w-[1187px] mx-auto xl:px-4 md:px-[86px] pl-6">
+                    <div class="relative">
+                         <div class="swiper mySwiper">
+                              <div class="swiper-wrapper">
+                                   <div class="swiper-slide">
+                                        <div class="border px-[22px] pb-2 pt-5 rounded-md border-black/[0.10]">
+                                             <div class="flex items-center justify-between">
+                                                  <img src="images/five-stars.svg" alt="">
+                                                  <h6
+                                                       class="text-[13px] font-medium leading-5 tracking-[0.65px] text-gray-1200">
+                                                       14 Oktober
+                                                  </h6>
+                                             </div>
+                                             <h5 class="text-black-1000 pt-4 pb-1 text-lg font-bold leading-5">Inga mer
+                                                  säljare
+                                             </h5>
+                                             <p class="text-xs min-h-[68px] font-medium leading-5 pb-2 text-gray-1200">
+                                                  Driver eget,
+                                                  många
+                                                  säljare
+                                                  kontaktar en
+                                                  genom google mm. Får inte längre
+                                                  några samtal</p>
+                                             <span
+                                                  class="text-[13px] font-medium leading-5 text-gray-1200">Stefan</span>
+                                        </div>
+                                   </div>
+                                   <div class="swiper-slide">
+                                        <div class="border px-[22px] pb-2 pt-5 rounded-md border-black/[0.10]">
+                                             <div class="flex items-center justify-between">
+                                                  <img src="images/five-stars.svg" alt="">
+                                                  <h6
+                                                       class="text-[13px] font-medium leading-5 tracking-[0.65px] text-gray-1200">
+                                                       23 Sept
+                                                  </h6>
+                                             </div>
+                                             <h5 class="text-black-1000 pt-4 pb-1 text-lg font-bold leading-5">Extremt
+                                                  smidigt
+                                             </h5>
+                                             <p class="text-xs min-h-[68px] font-medium leading-5 pb-2 text-gray-1200">
+                                                  Extremt
+                                                  smidigt och billigt. Tycker alla borde ta bort sin information online.
+                                             </p>
+                                             <span class="text-[13px] font-medium leading-5 text-gray-1200">Maria</span>
+                                        </div>
+                                   </div>
+                                   <div class="swiper-slide">
+                                        <div class="border px-[22px] pb-2 pt-5 rounded-md border-black/[0.10]">
+                                             <div class="flex items-center justify-between">
+                                                  <img src="images/five-stars.svg" alt="">
+                                                  <h6
+                                                       class="text-[13px] font-medium leading-5 tracking-[0.65px] text-gray-1200">
+                                                       6 Juli
+                                                  </h6>
+                                             </div>
+                                             <h5 class="text-black-1000 pt-4 pb-1 text-lg font-bold leading-5">fick bort
+                                                  allt
+                                             </h5>
+                                             <p class="text-xs font-medium leading-5 pb-2 text-gray-1200 min-h-[68px]">
+                                                  fick bort all
+                                                  min info, riktigt bra</p>
+                                             <span class="text-[13px] font-medium leading-5 text-gray-1200">Elias</span>
+                                        </div>
+                                   </div>
+                                   <div class="swiper-slide">
+                                        <div class="border px-[22px] pb-2 pt-5 rounded-md border-black/[0.10]">
+                                             <div class="flex items-center justify-between">
+                                                  <img src="images/five-stars.svg" alt="">
+                                                  <h6
+                                                       class="text-[13px] font-medium leading-5 tracking-[0.65px] text-gray-1200">
+                                                       6 Juli
+                                                  </h6>
+                                             </div>
+                                             <h5 class="text-black-1000 pt-4 pb-1 text-lg font-bold leading-5">fick bort
+                                                  allt
+                                             </h5>
+                                             <p class="text-xs font-medium leading-5 pb-2 text-gray-1200 min-h-[68px]">
+                                                  fick bort all
+                                                  min info, riktigt bra</p>
+                                             <span class="text-[13px] font-medium leading-5 text-gray-1200">Elias</span>
+                                        </div>
+                                   </div>
+                                   <div class="swiper-slide">
+                                        <div class="border px-[22px] pb-2 pt-5 rounded-md border-black/[0.10]">
+                                             <div class="flex items-center justify-between">
+                                                  <img src="images/five-stars.svg" alt="">
+                                                  <h6
+                                                       class="text-[13px] font-medium leading-5 tracking-[0.65px] text-gray-1200">
+                                                       14 Oktober
+                                                  </h6>
+                                             </div>
+                                             <h5 class="text-black-1000 pt-4 pb-1 text-lg font-bold leading-5">Inga mer
+                                                  säljare
+                                             </h5>
+                                             <p class="text-xs min-h-[68px] font-medium leading-5 pb-2 text-gray-1200">
+                                                  Driver eget,
+                                                  många
+                                                  säljare
+                                                  kontaktar en
+                                                  genom google mm. Får inte längre
+                                                  några samtal</p>
+                                             <span
+                                                  class="text-[13px] font-medium leading-5 text-gray-1200">Stefan</span>
+                                        </div>
+                                   </div>
+                                   <div class="swiper-slide">
+                                        <div class="border px-[22px] pb-2 pt-5 rounded-md border-black/[0.10]">
+                                             <div class="flex items-center justify-between">
+                                                  <img src="images/five-stars.svg" alt="">
+                                                  <h6
+                                                       class="text-[13px] font-medium leading-5 tracking-[0.65px] text-gray-1200">
+                                                       23 Sept
+                                                  </h6>
+                                             </div>
+                                             <h5 class="text-black-1000 pt-4 pb-1 text-lg font-bold leading-5">Extremt
+                                                  smidigt
+                                             </h5>
+                                             <p class="text-xs min-h-[68px] font-medium leading-5 pb-2 text-gray-1200">
+                                                  Extremt
+                                                  smidigt och billigt. Tycker alla borde ta bort sin information online.
+                                             </p>
+                                             <span class="text-[13px] font-medium leading-5 text-gray-1200">Maria</span>
+                                        </div>
+                                   </div>
+                                   <div class="swiper-slide">
+                                        <div class="border px-[22px] pb-2 pt-5 rounded-md border-black/[0.10]">
+                                             <div class="flex items-center justify-between">
+                                                  <img src="images/five-stars.svg" alt="">
+                                                  <h6
+                                                       class="text-[13px] font-medium leading-5 tracking-[0.65px] text-gray-1200">
+                                                       6 Juli
+                                                  </h6>
+                                             </div>
+                                             <h5 class="text-black-1000 pt-4 pb-1 text-lg font-bold leading-5">fick bort
+                                                  allt
+                                             </h5>
+                                             <p class="text-xs font-medium leading-5 pb-2 text-gray-1200 min-h-[68px]">
+                                                  fick bort all
+                                                  min info, riktigt bra</p>
+                                             <span class="text-[13px] font-medium leading-5 text-gray-1200">Elias</span>
+                                        </div>
+                                   </div>
+                                   <div class="swiper-slide">
+                                        <div class="border px-[22px] pb-2 pt-5 rounded-md border-black/[0.10]">
+                                             <div class="flex items-center justify-between">
+                                                  <img src="images/five-stars.svg" alt="">
+                                                  <h6
+                                                       class="text-[13px] font-medium leading-5 tracking-[0.65px] text-gray-1200">
+                                                       6 Juli
+                                                  </h6>
+                                             </div>
+                                             <h5 class="text-black-1000 pt-4 pb-1 text-lg font-bold leading-5">fick bort
+                                                  allt
+                                             </h5>
+                                             <p class="text-xs font-medium leading-5 pb-2 text-gray-1200">fick bort all
+                                                  min info, riktigt bra</p>
+                                             <span class="text-[13px] font-medium leading-5 text-gray-1200">Elias</span>
+                                        </div>
+                                   </div>
+                              </div>
+
+                         </div>
+                         <div class="swiper-button-next md:block hidden -right-12 after:!content-[none] !opacity-100">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="20" viewBox="0 0 25 20"
+                                   fill="none">
+                                   <path d="M24.5237 9.60636L15.541 19.2127L13.8716 17.4275L19.9529 10.8815H0L0 8.33118H19.9529L13.8716 1.78525L15.541 0L24.5237 9.60636Z"
+                                        fill="#DADADA" />
+                              </svg>
+                         </div>
+                         <div class="swiper-button-prev md:block hidden -left-12 after:!content-[none] !opacity-100">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="20" viewBox="0 0 25 20"
+                                   fill="none">
+                                   <path d="M-0.00030899 9.60653L8.98246 0.000169754L10.6518 1.78542L4.57057 8.33135L24.5234 8.33135V10.8817L4.57057 10.8817L10.6518 17.4276L8.98246 19.2129L-0.00030899 9.60653Z"
+                                        fill="#DADADA" />
+                              </svg>
+                         </div>
+
+
+                    </div>
+                    <div class="md:mt-[34px] mt-11 text-center">
+                         <img src="images/truts-img.svg" class="inline-block" alt=""><br>
+                         <img src="images/trust-img.svg" class="inline-block" alt="">
+                    </div>
+               </div>
+          </section>
+          <section class="xl:py-32 md:pt-20 pt-[73px] md:pb-[108px] pb-20">
+               <div class="max-w-[1187px] mx-auto md:px-4  px-3">
+                    <div class="text-center md:px-0 px-1">
+                         <h6 class="text-base font-medium leading-5 tracking-[0.8px] text-black-1200">För ett privatare
+                              liv</h6>
+                         <h2 class="text-black-1000 xl:text-[54px] text-5xl font-bold leading-[62px]"><span
+                                   class="text-orange-1000"> Dold</span>, nästan helt gratis.</h2>
+                    </div>
+                    <div class="flex flex-wrap xl:max-w-full  max-w-[701px] xl:mt-[104px] mt-[60px] xl:-mx-2.5 mx-auto">
+                         <div
+                              class="xl:w-1/3 w-full xl:block md:flex justify-between items-end xl:order-1 order-2 xl:px-2.5 md:px-0 px-10">
+                              <div class="xl:mt-0 mt-20 ">
+                                   <div class="relative">
+                                        <h4 class="text-[40px] font-bold leading-8 text-black-1000 mb-[18px]">
+                                             Livsräddare
+                                        </h4>
+                                        <div class="absolute -top-[30px] -left-9 z-[-1]">
+                                             <img src="images/quotes.svg" alt="">
+                                        </div>
+                                   </div>
+                                   <p
+                                        class="text-black-1000 max-w-[300px] text-[15px] font-medium leading-6 tracking-[0.75px]">
+                                        Detta
+                                        inkluderar döljning av offentligt personliga uppgifter såsom bostad, fordon,
+                                        relationsstatus och övrig information som kan kopplas till dig. </p>
+                              </div>
+                              <div class="xl:mt-[119px] md:mt-0 mt-9">
+                                   <img src="images/red-stars.svg" class="mb-2.5" alt="">
+                                   <h6 class="text-lg text-black-1000 font-bold leading-5 tracking-[0.9px]">Lisa Nilsson
+                                   </h6>
+                                   <span
+                                        class="text-xs text-black-1000 font-medium leading-5 tracking-[0.6px]">Influencer</span>
+                              </div>
+                         </div>
+                         <div class="xl:w-2/3 xl:order-2 order-1 xl:px-2.5">
+                              <div class="xl:-ml-9">
+                                   <img src="images/lisa-img.png" class="rounded-md " alt="">
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </section>
+          <section class="bg-gray-1300 lg:pb-0 pb-28 md:pt-[110px] pt-[76px]">
+               <div class="max-w-[1187px] mx-auto xl:px-4">
+                    <div
+                         class="md:flex items-end md:text-start text-center xl:px-0 md:px-[94px] px-6 justify-between xl:pl-20">
+                         <div>
+                              <span class="text-base text-black-1000 font-medium leading-5 tracking-[0.6px]">Tre enkla
+                                   steg</span>
+                              <h2 class="text-black-1000 font-bold text-[40px] leading-[62px]"><span
+                                        class="md:block hidden">Så här går det
+                                        till</span>
+                                   <span class="md:hidden block">Så funkar det</span>
+                              </h2>
+                         </div>
+                         <div>
+                              <a href="#"
+                                   class="md:flex hidden items-center bg-transparent w-[180px] rounded-full h-11 justify-center font-urbanist text-sm font-semibold leading-[22.5px] tracking-[0.75px] text-black-1000 border border-black-1000">Frågor
+                                   & Svar<svg class="ml-2" xmlns="http://www.w3.org/2000/svg" width="14" height="11"
+                                        viewBox="0 0 14 11" fill="none">
+                                        <path d="M14 5.13333L8.87196 10.2667L7.91896 9.31268L11.3906 5.81475H0V4.45192H11.3906L7.91896 0.953982L8.87196 0L14 5.13333Z"
+                                             fill="#1A1D20"></path>
+                                   </svg></a>
+                         </div>
+                    </div>
+                    <div class="flex flex-wrap xl:-mx-2.5 xl:pt-0 md:pt-[90px] pt-[18px]">
+                         <div class="lg:w-1/2 w-full xl:px-2.5 pt-12">
+                              <div class="xl:pl-20 md:pl-[94px] pl-14 md:pr-0 pr-14">
+                                   <div class="md:flex md:text-start text-center items-center md:mb-[93px] mb-20">
+                                        <div>
+                                             <img src="images/register-icon.svg" class="inline-block md:mb-0 mb-6"
+                                                  alt="">
+                                        </div>
+                                        <div class="md:ml-9 flex-1 max-w-[335px]">
+                                             <h5
+                                                  class="text-black-1000 md:mb-2 mb-12 md:text-[28px] text-[32px] font-bold leading-8">
+                                                  1.
+                                                  Registrering
+                                             </h5>
+                                             <p
+                                                  class="text-sm text-start font-medium leading-6 tracking-[0.7px] text-black-1200">
+                                                  Vid mottagen
+                                                  betalning registreras ditt ärende i vårt system, och du får en
+                                                  bekräftelse via e-post om att ditt ärende har påbörjats för
+                                                  handläggning.</p>
+                                        </div>
+                                   </div>
+                                   <div class="md:flex md:text-start text-center items-center md:mb-[93px] mb-20">
+                                        <div>
+                                             <img src="images/bort-icon.svg" class="inline-block md:mb-0 mb-6" alt="">
+                                        </div>
+                                        <div class="md:ml-9 flex-1 max-w-[335px]">
+                                             <h5
+                                                  class="text-black-1000 md:mb-2 mb-12 md:text-[28px] text-[32px] font-bold leading-8">
+                                                  1.
+                                                  2. Borttagning
+                                             </h5>
+                                             <p
+                                                  class="text-sm text-start font-medium leading-6 tracking-[0.7px] text-black-1200">
+                                                  Detta inkluderar döljning av offentligt personliga uppgifter såsom
+                                                  bostad, fordon, relationsstatus, och övrig information som kopplas
+                                                  till dig.</p>
+                                        </div>
+                                   </div>
+                                   <div class="md:flex md:text-start text-center items-center">
+                                        <div>
+                                             <img src="images/valid-icon.svg" class="inline-block md:mb-0 mb-6" alt="">
+                                        </div>
+                                        <div class="md:ml-9 flex-1 max-w-[335px]">
+                                             <h5
+                                                  class="text-black-1000 md:mb-2 mb-12 md:text-[28px] text-[32px] font-bold leading-8">
+                                                  1.
+                                                  3. Validering
+                                             </h5>
+                                             <p
+                                                  class="text-sm font-medium text-start leading-6 tracking-[0.7px] text-black-1200">
+                                                  Vi kör upprepade kontroller över en viss tidsperiod för att försäkra
+                                                  oss om att uppgifterna inte dyker upp igen online. </p>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="lg:w-1/2 w-full lg:block hidden xl:px-2.5">
+                              <div class="xl:text-center text-end">
+                                   <img src="images/mobile-img2.png" class="hidden xl:inline-block" alt="">
+                                   <img src="images/tab-img.png" class="xl:hidden inline-block" alt="">
+                              </div>
+                         </div>
+                    </div>
+                    <div class="mt-16">
+                         <a href="#"
+                              class="flex xl:hidden mx-auto items-center bg-orange-1000 w-[275px] rounded-full h-11 justify-center font-urbanist text-sm font-semibold leading-[22.5px] tracking-[0.75px] text-white">Döj
+                              din identitet<svg class="ml-2" xmlns="http://www.w3.org/2000/svg" width="14" height="11"
+                                   viewBox="0 0 14 11" fill="none">
+                                   <path d="M14 5.13333L8.87196 10.2667L7.91896 9.31268L11.3906 5.81475H0V4.45192H11.3906L7.91896 0.953982L8.87196 0L14 5.13333Z"
+                                        fill="white"></path>
+                              </svg></a>
+                    </div>
+               </div>
+          </section>
+          <section class="md:pt-32 pt-[70px] md:pb-40 pb-20">
+               <div class="max-w-[1187px] mx-auto xl:px-4 md:px-[94px] px-6">
+                    <div class="flex flex-wrap  xl:-mx-2.5">
+                         <div class="lg:w-1/2 w-full xl:px-2.5">
+                              <div class="xl:pl-20 xl:text-start text-center">
+                                   <img src="images/joakim-img.png" class="inline-block rounded-md " alt="">
+                              </div>
+                         </div>
+                         <div class="lg:w-1/2 w-full xl:px-2.5 md:mt-0 mt-16">
+                              <div class="max-w-[471px] xl:pl-0 lg:pl-[54px] lg:mx-0 mx-auto">
+                                   <div class="relative mb-2.5">
+                                        <h4
+                                             class="text-[40px] md:block hidden leading-[48px] font-bold text-black-1000 mb-[18px]">
+                                             En
+                                             viktig
+                                             tjänst för din privata <span class="text-orange-1000">säkerhet</span>
+                                        </h4>
+                                        <h4
+                                             class="text-[40px] md:hidden block  leading-[48px] font-bold text-black-1000 mb-[18px]">
+                                             En viktig tjänst för din <span class="text-orange-1000"> säkerhet</span>
+                                        </h4>
+                                        <div class="absolute md:top-0 -top-1 md:-left-7 -left-3 z-[-1]">
+                                             <img src="images/quotes.svg" class="md:w-auto w-9" alt="">
+                                        </div>
+                                   </div>
+                                   <p class="text-black-1200 mb-4 text-[15px] font-medium leading-6 tracking-[0.75px]">
+                                        Jag står bakom Doldadress vision om att värna privatpersoners digitala säkerhet.
+                                   </p>
+                                   <p
+                                        class="text-black-1200  text-[15px] font-medium leading-6 md:block hidden tracking-[0.75px]">
+                                        I dagens snabbt digitaliserade värld är det av avgörande betydelse att individer
+                                        känner sig trygga när de navigerar på nätet. Digital säkerhet handlar inte bara
+                                        om
+                                        att skydda personlig information, utan också om att främja integritet och
+                                        förtroende.
+                                   </p>
+                                   <p
+                                        class="text-black-1200 md:hidden block text-[15px] font-medium leading-6 tracking-[0.75px]">
+                                        Men
+                                        det finns situationer där offentlig information kan ha negativa konsekvenser.
+                                        Här är några exempel:</p>
+                                   <div class="md:mt-[86px] mt-[68px]">
+                                        <span class="text-black-1000  text-base font-bold leading-5 tracking-[0.8px]">
+                                             Joakim Söderberg
+                                        </span>
+                                        <p class="text-gray-1200  text-sm font-medium leading-5 tracking-[0.7px]">
+                                             Dataskyddskonsult, Datajurist.se
+                                        </p>
+                                        <p
+                                             class="text-gray-1200 mt-[22px] text-xs font-medium leading-5 tracking-[0.6px]">
+                                             Tidgare Dataskyddsombud och<Br> myndighetschef vid tillsynsmyndighet
+                                        </p>
+                                   </div>
+                              </div>
+                         </div>
+
+                    </div>
+               </div>
+          </section>
+          <section class="bg-orange-1000 md:py-12 pt-16 pb-[92px] shadow-6xl border border-black/10">
+               <div class="max-w-[1187px] mx-auto px-4">
+                    <div class="flex flex-nowrap max-w-[715px] mx-auto items-center justify-center">
+                         <div class="text-center">
+                              <h4 class="text-white text-5xl font-bold leading-[64px] mb-6 ">
+                                   Vi hjälper dig som icke-offentlig person att bli dold från nätet.
+                              </h4>
+                              <p
+                                   class="text-white text-[15px] max-w-[442px] mx-auto font-medium leading-6 tracking-[0.75px]">
+                                   Den svenska
+                                   offentlighetsprincipen innebär att allmänheten och massmedia har rätt att ta del av
+                                   handlingar som finns hos myndigheter.</p>
+                              <div class="text-cetner md:mt-9 mt-12">
+                                   <a href="#"
+                                        class="flex items-center bg-transparent w-[250px] bg-white rounded-full h-11 justify-center font-urbanist text-base font-semibold leading-[22.5px] tracking-[0.75px] text-black-1000 mx-auto">Om
+                                        oss<svg class="ml-2" xmlns="http://www.w3.org/2000/svg" width="14" height="11"
+                                             viewBox="0 0 14 11" fill="none">
+                                             <path d="M14 5.13333L8.87196 10.2667L7.91896 9.31268L11.3906 5.81475H0V4.45192H11.3906L7.91896 0.953982L8.87196 0L14 5.13333Z"
+                                                  fill="#1A1D20" />
+                                        </svg></a>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </section>
+          <section class="bg-gray-1300 xl:pt-[110px] pt-20 pb-2">
+               <div class="max-w-[1187px] mx-auto md:px-4 px-6">
+                    <div
+                         class="flex flex-wrap md:justify-start justify-center xl:max-w-full max-w-[631px] mx-auto xl:-mx-2.5">
+                         <div class="xl:w-2/5 xl:px-2.5">
+                              <div class="xl:pl-16 xl:mb-0 md:mb-11 mb-16 md:text-start text-center">
+                                   <h6 class="text-black-1000 text-[40px] mb-4 font-bold leading-[48px]">
+                                        Varför ska man <br><span class="text-orange-1000"> dölja</span> sin identitet?
+                                   </h6>
+                                   <p
+                                        class="text-[15px] max-w-[333px] font-medium leading-6 tracking-[0.75px] text-black-1200">
+                                        Den
+                                        svenska
+                                        offentlighetsprincipen innebär att allmänheten och massmedia har rätt
+                                        att ta del av handlingar som finns hos myndigheter. <br><br>Men det finns
+                                        situationer där
+                                        offentlig information kan ha negativa konsekvenser. Här är några exempel:</p>
+                              </div>
+                         </div>
+                         <div class="xl:w-3/5 xl:px-2.5 md:px-0 px-8">
+                              <div class="grid md:grid-cols-2 md:text-start text-center xl:gap-11 md:gap-20 xl:pl-8">
+                                   <div>
+                                        <div class="md:mb-12 mb-[90px]">
+                                             <img src="images/man-icon1.svg" class="inline-block" alt="">
+                                             <h4
+                                                  class="text-base text-black-1000 my-4 font-bold leading-6 tracking-[0.8px] uppercase">
+                                                  Identitetsstöld</h4>
+                                             <p
+                                                  class="text-[13px] font-normal leading-5 tracking-[0.65px] text-black-1200">
+                                                  I
+                                                  en
+                                                  digitaliserad värld kan offentligt tillgänglig information, som
+                                                  födelsedata eller adresser, användas av illasinnade för att begå
+                                                  identitetsstöld.</p>
+                                        </div>
+                                        <div class="md:mb-12 mb-[90px]">
+                                             <img src="images/men-icon3.svg" class="inline-block" alt="">
+                                             <h4
+                                                  class="text-base text-black-1000 my-4 font-bold leading-6 tracking-[0.8px] uppercase">
+                                                  Risk för utpressning eller repressalier</h4>
+                                             <p
+                                                  class="text-[13px] font-normal leading-5 tracking-[0.65px] text-black-1200">
+                                                  I
+                                                  vissa fall kan offentlig information användas för att utpressa
+                                                  individer
+                                                  eller utsätta dem för repressalier, särskilt i fall där vittnen eller
+                                                  brottsoffer identifieras.</p>
+                                        </div>
+                                        <div class="md:mb-12 mb-[90px]">
+                                             <img src="images/man-icon5.svg" class="inline-block" alt="">
+                                             <h4
+                                                  class="text-base text-black-1000 my-4 font-bold leading-6 tracking-[0.8px] uppercase">
+                                                  Försvårad brottsbekämpning</h4>
+                                             <p
+                                                  class="text-[13px] font-normal leading-5 tracking-[0.65px] text-black-1200">
+                                                  Viss information kan, om den blir offentlig, försvåra polisens arbete.
+                                                  Exempelvis kan detaljerade uppgifter om pågående brottsutredningar
+                                                  äventyra
+                                                  utredningens framgång om de blir kända av allmänheten eller förövare.
+                                             </p>
+                                        </div>
+                                   </div>
+                                   <div>
+                                        <div class="md:mb-12 mb-[90px]">
+                                             <img src="images/man-icon2.svg" class="inline-block" alt="">
+                                             <h4
+                                                  class="text-base text-black-1000 my-4 font-bold leading-6 tracking-[0.8px] uppercase">
+                                                  Stalkning</h4>
+                                             <p
+                                                  class="text-[13px] font-normal leading-5 tracking-[0.65px] text-black-1200">
+                                                  Offentlig information kan ibland användas av stalkers för att spåra
+                                                  sina offer.</p>
+                                        </div>
+                                        <div class="md:mb-12 mb-[90px]">
+                                             <img src="images/men-icon4.svg" class="inline-block" alt="">
+                                             <h4
+                                                  class="text-base text-black-1000 my-4 font-bold leading-6 tracking-[0.8px] uppercase">
+                                                  personlig integritet</h4>
+                                             <p
+                                                  class="text-[13px] font-normal leading-5 tracking-[0.65px] text-black-1200">
+                                                  Exempelvis har det skett fall där journalister har publicerat känslig
+                                                  information om privatpersoner, såsom adresser, ekonomiska
+                                                  förhållanden, eller medicinsk information.</p>
+                                        </div>
+                                        <div class="md:mb-12 mb-[90px]">
+                                             <img src="images/man-icon6.svg" class="inline-block" alt="">
+                                             <h4
+                                                  class="text-base text-black-1000 my-4 font-bold leading-6 tracking-[0.8px] uppercase">
+                                                  Missbruk i kommersiellt syfte</h4>
+                                             <p
+                                                  class="text-[13px] font-normal leading-5 tracking-[0.65px] text-black-1200">
+                                                  Vissa företag kan skrapa offentliga register för att skapa
+                                                  adresslistor eller andra databaser som de sedan kan använda i
+                                                  kommersiellt syfte, utan att individen har gett sitt samtycke.
+                                             </p>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </section>
+          <section class="bg-[url('../images/bg-gradient.png')] md:pt-[60px] pt-9 bg-no-repeat bg-cover">
+               <div class="max-w-[1187px] mx-auto md:px-4">
+                    <div class="flex flex-wrap md:-mx-2.5">
+                         <div class="xl:w-1/2 w-full md:px-2.5 px-6 pt-12">
+                              <div class="md:pl-[92px] md:text-start text-center">
+                                   <h1 class="text-black-1000 font-bold leading-[48px] mb-6 xl:text-5xl text-[40px]">
+                                        <img src="images/circle.svg" alt="" class="mr-2.5 inline-block">Bli anonym idag
+                                   </h1>
+                                   <p
+                                        class="text-sm text-black-1200 max-w-[450px] font-semibold leading-6 mb-9 tracking-[0.7px]">
+                                        Vi är här för att bevara din digitala integritet och ta bort och skydda din
+                                        personliga information från att exponeras offentligt online.</p>
+                                   <a href="#"
+                                        class="flex items-center bg-orange-1000 md:mx-0 mx-auto w-[275px] rounded-full h-11 justify-center font-urbanist text-sm font-semibold leading-[22.5px] tracking-[0.75px] text-white">Dölj
+                                        Dölj din identitet<svg class="ml-2" xmlns="http://www.w3.org/2000/svg"
+                                             width="14" height="11" viewBox="0 0 14 11" fill="none">
+                                             <path d="M14 5.13333L8.87196 10.2667L7.91896 9.31268L11.3906 5.81475H0V4.45192H11.3906L7.91896 0.953982L8.87196 0L14 5.13333Z"
+                                                  fill="white"></path>
+                                        </svg></a>
+                              </div>
+                         </div>
+                         <div class="xl:w-1/2 xl:mt-0 mt-10 w-full md:px-2.5">
+                              <div class="text-center">
+                                   <img src="images/mobile-img3.png" class="md:inline-block hidden" alt="">
+                                   <img src="images/mobile-img4.png" class="inline-block md:hidden" alt="">
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </section>
+          <footer class="mt-[60px] mb-5">
+               <div class="max-w-[1187px] mx-auto px-4">
+                    <div class="max-w-[802px] mx-auto">
+                         <img src="images/logo.svg" alt="">
+                         <div class="flex flex-wrap mt-8 justify-between">
+                              <div class="xl:w-1/3 md:w-2/6">
+                                   <div class="flex flex-wrap ">
+                                        <div class="flex flex-wrap">
+                                             <ul class="mr-[100px]">
+                                                  <li class="mb-2"><a href="#"
+                                                            class="text-sm font-medium text-black-1000 leading-[22px]">Blogg</a>
+                                                  </li>
+                                                  <li class="mb-2"><a href="#"
+                                                            class="text-sm font-medium text-black-1000 leading-[22px]">Om
+                                                            oss</a></li>
+                                                  <li><a href="#"
+                                                            class="text-sm font-medium text-black-1000 leading-[22px]">Press</a>
+                                                  </li>
+                                             </ul>
+                                             <ul>
+                                                  <li class="mb-2"><a href="#"
+                                                            class="text-sm font-medium text-black-1000 leading-[22px]">Dölj
+                                                            din indentitet</a>
+                                                  </li>
+                                                  <li class="mb-2"><a href="#"
+                                                            class="text-sm font-medium text-black-1000 leading-[22px]">Vanliga
+                                                            frågor</a></li>
+                                                  <li><a href="#"
+                                                            class="text-sm font-medium text-black-1000 leading-[22px]">Kontakta
+                                                            oss</a>
+                                                  </li>
+                                             </ul>
+                                        </div>
+                                        <div class="md:mt-[105px] mt-[33px]">
+                                             <a href="#"
+                                                  class="text-[15px] font-semibold text-black-1000 leading-[22px]">Språk</a>
+                                             <ul class="flex items-center mr-[198px]">
+                                                  <li class="mr-[2px]"><a href=" #"
+                                                            class="text-[13px] font-urbanist font-semibold leading-[22.5px] tracking-[0.65px] text-gray-1000">
+                                                            EN</a>
+                                                  </li>
+                                                  <li class="mr-[2px]"><a href="#"
+                                                            class="text-[13px] font-urbanist font-semibold leading-[22.5px] tracking-[0.65px] text-black-1000">|</a>
+                                                  </li>
+                                                  <li><a href="#"
+                                                            class="text-[13px] font-urbanist font-semibold leading-[22.5px] tracking-[0.65px] text-black-1000">SE</a>
+                                                  </li>
+                                             </ul>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="xl:w-1/3 md:w-2/6 w-full md:mt-0 mt-5">
+                                   <div class="text-center">
+                                        <h6
+                                             class="text-sm text-black-1000 font-semibold font-acid_groteskmedium leading-7 tracking-[0.7px]">
+                                             Följ oss</h6>
+                                        <ul class="flex items-center justify-center md:mb-12 mt-4">
+                                             <li><a href="#"><img src="images/insta.svg" alt=""></a></li>
+                                             <li class="mx-[18px]"><a href="#"><img src="images/facebook.svg"
+                                                            alt=""></a></li>
+                                             <li><a href="#"><img src="images/linkdin.svg" alt=""></a></li>
+
+                                        </ul>
+                                        <a href="#"
+                                             class="md:flex hidden items-center bg-transparent mx-auto w-[180px] rounded-full h-11 justify-center font-urbanist text-base font-semibold leading-[22.5px] tracking-[0.75px] text-black-1000 border border-black-1000">Kontakta
+                                             oss<svg class="ml-2" xmlns="http://www.w3.org/2000/svg" width="14"
+                                                  height="11" viewBox="0 0 14 11" fill="none">
+                                                  <path d="M14 5.13333L8.87196 10.2667L7.91896 9.31268L11.3906 5.81475H0V4.45192H11.3906L7.91896 0.953982L8.87196 0L14 5.13333Z"
+                                                       fill="#1A1D20"></path>
+                                             </svg></a>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="">
+
+                              <p
+                                   class="text-black-1000 md:mt-28 mt-20 md:text-start text-center text-xs font-normal leading-[22px]">
+                                   ©Dold Adress 2023.
+                                   Alla
+                                   rättigheter förbehållna.</p>
+                         </div>
+                    </div>
+               </div>
+          </footer>
+     </div>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+     <script>
+          var swiper = new Swiper(".mySwiper", {
+               slidesPerView: 4,
+               spaceBetween: 30,
+               breakpoints: {
+                    // when window width is >= 320px
+                    320: {
+                         slidesPerView: 1.4,
+                         spaceBetween: 20
+                    },
+                    767: {
+                         slidesPerView: 2,
+                         spaceBetween: 20
+                    },
+                    // when window width is >= 480px
+                    991: {
+                         slidesPerView: 3,
+                         spaceBetween: 26,
+                    },
+                    // when window width is >= 640px
+                    1199: {
+                         slidesPerView: 4,
+                         spaceBetween: 30,
+                    }
+               },
+               navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+               },
+          });
+     </script>
+</body>
+
+</html>

@@ -1,0 +1,624 @@
+<!doctype html>
+<html>
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+          rel="stylesheet">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+     <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+     <div class="font-urbanist overflow-hidden">
+          <header>
+               <nav class="bg-white dark:bg-gray-900 fixed w-full py-5 z-20 top-0 left-0 ">
+                    <div class="max-w-[1590px] flex flex-wrap items-center justify-between mx-auto xl:px-4  px-6">
+                         <div class="flex items-center xl:order-1 order-2">
+                              <ul class="xl:flex hidden items-center 2xl:mr-[198px] mr-5">
+                                   <li class="mr-1"><a href="#"><img src="images/golbe.svg" alt=""></a></li>
+                                   <li class="mr-[2px]"><a href=" #"
+                                             class="text-[13px] font-urbanist font-semibold leading-[22.5px] tracking-[0.65px] text-gray-1000">
+                                             EN</a>
+                                   </li>
+                                   <li class="mr-[2px]"><a href="#"
+                                             class="text-[13px] font-urbanist font-semibold leading-[22.5px] tracking-[0.65px] text-black-1000">|</a>
+                                   </li>
+                                   <li><a href="#"
+                                             class="text-[13px] font-urbanist font-semibold leading-[22.5px] tracking-[0.65px] text-black-1000">SE</a>
+                                   </li>
+                              </ul>
+                              <a href="https://flowbite.com/" class="flex items-center">
+                                   <img src="images/logo.svg" class="md:w-auto w-[150px] md:h-8 mr-3"
+                                        alt="Flowbite Logo">
+                              </a>
+                         </div>
+                         <div class="flex xl:order-2 order-1">
+                              <a href="#"
+                                   class="xl:flex hidden items-center bg-transparent w-[180px] rounded-full h-11 justify-center font-urbanist text-base font-semibold leading-[22.5px] tracking-[0.75px] text-black-1000 border border-black-1000">Kontakta
+                                   oss<svg class="ml-2" xmlns="http://www.w3.org/2000/svg" width="14" height="11"
+                                        viewBox="0 0 14 11" fill="none">
+                                        <path d="M14 5.13333L8.87196 10.2667L7.91896 9.31268L11.3906 5.81475H0V4.45192H11.3906L7.91896 0.953982L8.87196 0L14 5.13333Z"
+                                             fill="#1A1D20" />
+                                   </svg></a>
+
+                              <button data-collapse-toggle="navbar-sticky" type="button"
+                                   class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg xl:hidden focus:outline-none focus:ring-0 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                                   aria-controls="navbar-sticky" aria-expanded="false">
+                                   <span class="sr-only">Open main menu</span>
+                                   <svg xmlns="http://www.w3.org/2000/svg" width="29" height="21" viewBox="0 0 29 21"
+                                        fill="none">
+                                        <rect width="29" height="3" fill="#1A1D20" />
+                                        <rect y="9" width="29" height="3" fill="#1A1D20" />
+                                        <rect y="18" width="29" height="3" fill="#1A1D20" />
+                                   </svg>
+                              </button>
+                         </div>
+                         <div class="items-center justify-between xl:h-auto h-screen xl:overflow-hidden overflow-scroll xl:pb-0 pb-32 hidden xl:pt-0 md:pt-[62px] pt-10 xl:pl-0 md:pl-[54px] pl-7 xl:pr-0 pr-[66px] w-full xl:flex xl:w-auto xl:order-1 xl:static absolute top-[84px]  xl:max-w-full left-0 xl:bg-transparent bg-gray-1300 max-w-[300px]"
+                              id="navbar-sticky">
+                              <ul
+                                   class="flex flex-col xl:items-center   xl:flex-row  md:mt-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                                   <li><a href="#"
+                                             class="flex md:mb-[66px] mb-14 xl:hidden items-center bg-transparent w-[180px] rounded-full h-11 justify-center font-urbanist text-base font-semibold leading-[22.5px] tracking-[0.75px] text-black-1000 border border-black-1000">Kontakta
+                                             oss<svg class="ml-2" xmlns="http://www.w3.org/2000/svg" width="14"
+                                                  height="11" viewBox="0 0 14 11" fill="none">
+                                                  <path d="M14 5.13333L8.87196 10.2667L7.91896 9.31268L11.3906 5.81475H0V4.45192H11.3906L7.91896 0.953982L8.87196 0L14 5.13333Z"
+                                                       fill="#1A1D20"></path>
+                                             </svg></a></li>
+                                   <li class="xl:mr-12 xl:mb-0 mb-10">
+                                        <a href="#"
+                                             class="block font-urbanist text-[15px] font-semibold leading-[22.5px] underline-offset-4 tracking-[0.75px] text-orange-1100 underline"
+                                             aria-current="page">Dölj din identitet</a>
+                                   </li>
+                                   <li class="xl:mr-12 xl:mb-0 mb-10">
+                                        <a href="#"
+                                             class="block font-urbanist text-[15px] font-medium leading-[22.5px] tracking-[0.75px] text-black-1100">Vanliga
+                                             frågor</a>
+                                   </li>
+                                   <li class="xl:mr-20 xl:mb-0 mb-10">
+                                        <a href="#"
+                                             class="block font-urbanist text-[15px] font-medium leading-[22.5px] tracking-[0.75px] text-black-1100">Om
+                                             Oss</a>
+                                   </li>
+                                   <li class="">
+                                        <a href="#"
+                                             class="xl:flex hidden items-center bg-orange-1000 w-[180px] rounded-full h-11 justify-center font-urbanist text-base font-semibold leading-[22.5px] tracking-[0.75px] text-white">Logga
+                                             in<svg class="ml-2" xmlns="http://www.w3.org/2000/svg" width="14"
+                                                  height="11" viewBox="0 0 14 11" fill="none">
+                                                  <path d="M14 5.13333L8.87196 10.2667L7.91896 9.31268L11.3906 5.81475H0V4.45192H11.3906L7.91896 0.953982L8.87196 0L14 5.13333Z"
+                                                       fill="white" />
+                                             </svg></a>
+                                   </li>
+                                   <li class="xl:mr-20 xl:hidden block xl:mb-0 mb-10">
+                                        <a href="#"
+                                             class="block font-urbanist text-[15px] font-medium leading-[22.5px] tracking-[0.75px] text-black-1100">Blogg</a>
+                                   </li>
+                                   <li class="xl:mr-20 xl:hidden block xl:mb-0 mb-10">
+                                        <a href="#"
+                                             class="block font-urbanist text-[15px] font-medium leading-[22.5px] tracking-[0.75px] text-black-1100">Press</a>
+                                   </li>
+                              </ul>
+                              <div class="text-start xl:hidden block xl:mt-0 mt-4">
+                                   <h6
+                                        class="text-sm text-black-1000 font-semibold font-acid_groteskmedium leading-7 tracking-[0.7px]">
+                                        Följ oss</h6>
+                                   <ul class="flex items-center mb-16  mt-4">
+                                        <li><a href="#"><img src="images/insta.svg" alt=""></a></li>
+                                        <li class="mx-[18px]"><a href="#"><img src="images/facebook.svg" alt=""></a>
+                                        </li>
+                                        <li><a href="#"><img src="images/linkdin.svg" alt=""></a></li>
+
+                                   </ul>
+                                   <ul class="flex xl:hidden items-center 2xl:mr-[198px] mr-5">
+                                        <li class="mr-1"><a href="#"><img src="images/golbe.svg" alt=""></a></li>
+                                        <li class="mr-[2px]"><a href=" #"
+                                                  class="text-[13px] font-urbanist font-semibold leading-[22.5px] tracking-[0.65px] text-gray-1000">
+                                                  EN</a>
+                                        </li>
+                                        <li class="mr-[2px]"><a href="#"
+                                                  class="text-[13px] font-urbanist font-semibold leading-[22.5px] tracking-[0.65px] text-black-1000">|</a>
+                                        </li>
+                                        <li><a href="#"
+                                                  class="text-[13px] font-urbanist font-semibold leading-[22.5px] tracking-[0.65px] text-black-1000">SE</a>
+                                        </li>
+                                   </ul>
+                              </div>
+                         </div>
+                         <div class="order-3">
+                              <a href="#"
+                                   class="md:hidden block   font-urbanist text-sm font-semibold leading-[22.5px] tracking-[0.75px] text-orange-1000">Logga
+                                   in </a>
+                              <a href="#"
+                                   class="md:flex hidden xl:hidden items-center bg-orange-1000 w-[180px] rounded-full h-11 justify-center font-urbanist text-base font-semibold leading-[22.5px] tracking-[0.75px] text-white">Logga
+                                   in<svg class="ml-2" xmlns="http://www.w3.org/2000/svg" width="14" height="11"
+                                        viewBox="0 0 14 11" fill="none">
+                                        <path d="M14 5.13333L8.87196 10.2667L7.91896 9.31268L11.3906 5.81475H0V4.45192H11.3906L7.91896 0.953982L8.87196 0L14 5.13333Z"
+                                             fill="white"></path>
+                                   </svg></a>
+                         </div>
+                    </div>
+                    <div class="lg:hidden block xl:px-4 mt-2 px-6">
+                         <h6 class="text-sm w-1/5 flex justify-end font-semibold text-gray-1800 leading-[22.5px]">
+                              16% klar</h6>
+                         <div class="w-full bg-gray-1900 rounded-full h-2.5 dark:bg-gray-700">
+                              <div class="bg-green-1100 h-2.5" style="width: 16%"></div>
+                         </div>
+                    </div>
+               </nav>
+
+          </header>
+
+          <section class="md:pt-[143px] pt-28 mt-20 bg-gray-1300">
+               <div
+                    class="flex flex-wrap justify-center xl:pl-0 xl:pr-0 lg:pr-20 md:pr-6 pr-[18px] lg:pl-10 md:pl-6 pl-[18px]">
+                    <div class="max-w-[84px] relative">
+
+                         <div class="lg:flex hidden mb-[204px]">
+                              <div>
+                                   <h6 class="text-sm font-semibold text-gray-1800 leading-[22.5px]">0% klar</h6>
+                              </div>
+                              <div
+                                   class="flex flex-1 ml-[13px] relative flex-col flex-nowrap justify-end w-5 h-[600px] bg-gray-1900 overflow-hidden dark:bg-gray-700">
+                                   <div class="bg-blue-500 absolute top-0 w-full overflow-hidden" role="progressbar"
+                                        style="height: 0%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="xl:flex hidden mb-[204px]">
+                              <div>
+                                   <h6
+                                        class="text-sm h-[11%] flex items-end font-semibold text-gray-1800 leading-[22.5px]">
+                                        16% klar</h6>
+                              </div>
+                              <div
+                                   class="flex flex-1 ml-[13px] relative flex-col flex-nowrap justify-end w-5 h-[600px] bg-gray-1900 overflow-hidden dark:bg-gray-700">
+                                   <div class="bg-green-1100 absolute top-0 w-full overflow-hidden" role="progressbar"
+                                        style="height: 10%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="xl:flex hidden ">
+                              <div>
+                                   <h6
+                                        class="text-sm h-[32%] flex items-end font-semibold text-gray-1800 leading-[22.5px]">
+                                        32% klar</h6>
+                              </div>
+                              <div
+                                   class="flex flex-1 ml-[13px] relative flex-col flex-nowrap justify-end w-5 h-[600px] bg-gray-1900 overflow-hidden dark:bg-gray-700">
+                                   <div class="bg-green-1100 absolute top-0 w-full overflow-hidden" role="progressbar"
+                                        style="height: 32%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="md:flex-1 max-w-[935px] xl:ml-[104px] lg:ml-[45px] md:mb-56 mb-[109px]">
+                         <div class="md:flex  justify-between">
+                              <div class="sm:max-w-[350px] max-w-[238px]">
+                                   <h2
+                                        class="text-black-1000 mb-5 sm:text-5xl text-[32px] font-bold md:leading-[48px] leading-8 tracking-[2.4px]">
+                                        Nu
+                                        börjar vi borttagningen</h2>
+                                   <p class="sm:text-lg text-base font-medium text-balck-1000">Det tar bara 5 minuter,
+                                        sedan sköter
+                                        vi resten åt dig.</p>
+                              </div>
+                              <div class="text-end md:-mt-0 -mt-11">
+                                   <img src="images/tier-img.png"
+                                        class="md:w-auto md:ml-0 ml-auto w-[150px] md:h-auto inline-block h-[150px]"
+                                        alt="">
+                              </div>
+                         </div>
+                         <div
+                              class="bg-white/[0.66] md:-mt-[88px] -mt-[35px] relative md:pt-[78px] pt-[18px] md:pb-[159px] pb-20 xl:px-20 md:px-[62px] px-[22px] shadow-4xl rounded-2xl">
+                              <div class="border-b border-gray-2100 pb-[50px]">
+                                   <h6 class="text-black-1400 mb-1 text-2xl font-semibold leading-8">1. Mrkoll</h6>
+                                   <span class="text-sm text-gray-2000 font-medium leading-[26px] tracking-[0.7px]">Signering
+                                        med
+                                        BankID</span>
+                                   <ul class="mt-8">
+                                        <li
+                                             class="text-sm mb-3 font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                             1.
+                                             Följ denna<a href="https://mrkoll.se/om/andra-uppgifter/"
+                                                  class="underline font-bold"> länken.</a> </li>
+                                        <li
+                                             class="text-sm mb-3 font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                             2.
+                                             Tryck på
+                                             <a href="https://mrkoll.se/om/andra-uppgifter/" class=" font-bold">
+                                                  Starta inloggning med Mobilt BankID,</a>
+                                        </li>
+                                        <li
+                                             class="text-sm mb-3 font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                             3.
+                                             Ange ditt personnummer och
+                                             <a href="https://mrkoll.se/om/andra-uppgifter/" class="font-bold">
+                                                  Logga in</a> med BankID,
+                                        </li>
+                                        <li
+                                             class="text-sm mb-3 font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                             4.
+                                             Välj <a href="https://mrkoll.se/om/andra-uppgifter/" class=" font-bold">
+                                                  "Dölj"</a> på Utdelningsadress och Telefonnr.</li>
+                                        <li class="text-sm font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                             5. Du
+                                             kan nu <a href="https://mrkoll.se/om/andra-uppgifter/" class="font-bold">
+                                                  logga ut</a> eller stänga ner hemsidan.</li>
+                                   </ul>
+                                   <p class="text-sm mt-7 font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                        Notera
+                                        att
+                                        MrKoll lägger ut din information igen under oregelbundna månadsintervaller och
+                                        vi
+                                        notifierar dig direkt när dem åter publicerat din information.
+                                   </p>
+                                   <p class="text-sm mt-12 font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                        Tryck
+                                        på Klar när du har följt alla steg så vi kan registrera detta moment i vår
+                                        databas.
+                                   </p>
+                                   <a href="#"
+                                        class="text-sm font-semibold leading-[22.5px] border-[1.5px] w-[155px] h-[43px] flex items-center justify-center rounded-full mt-5 border-green-1000 text-green-1000 ">Klar<img
+                                             src="images/tick.svg" class="ml-1.5" alt=""></a>
+                              </div>
+                              <div class="border-b pt-16 border-gray-2100 pb-[50px]">
+                                   <h6 class="text-black-1400 mb-1 text-2xl font-semibold leading-8">2. Eniro</h6>
+                                   <span class="text-sm text-gray-2000 font-medium leading-[26px] tracking-[0.7px]">Signering
+                                        med BankID</span>
+                                   <ul class="mt-8">
+                                        <li
+                                             class="text-sm mb-3 font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                             1.
+                                             Följ denna<a href="https://mrkoll.se/om/andra-uppgifter/"
+                                                  class="underline font-bold"> länken.</a> </li>
+                                        <li
+                                             class="text-sm mb-3 font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                             2.
+                                             <a href="https://mrkoll.se/om/andra-uppgifter/" class=" font-bold">
+                                                  Sök upp och välj dig själv</a>i sökrutan.
+                                        </li>
+                                        <li
+                                             class="text-sm mb-3 font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                             3. Tryck på “Ändra dina uppgifter” och logga in med BankID
+                                        </li>
+                                        <li
+                                             class="text-sm mb-3 font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                             4.
+                                             Välj <a href="https://mrkoll.se/om/andra-uppgifter/" class=" font-bold">
+                                                  "Dölj"</a> på Utdelningsadress och Telefonnr.</li>
+                                        <li class="text-sm font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                             5. Du
+                                             kan nu <a href="https://mrkoll.se/om/andra-uppgifter/" class="font-bold">
+                                                  logga ut</a> eller stänga ner hemsidan.</li>
+                                   </ul>
+                                   <p class="text-sm mt-7 font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                        Du är nu borttagen offentligt från deras hemsida. Eniro kan komma till att lägga
+                                        ut din information igen. och vi notifierar dig direkt när dem åter publicerat
+                                        din information.
+
+                                   </p>
+                                   <p class="text-sm mt-12 font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                        Tryck på Klar när du har följt alla steg så vi kan registrera detta moment i vår
+                                        databas.
+                                   </p>
+                                   <a href="#"
+                                        class="text-sm font-semibold leading-[22.5px] border-[1.5px] w-[155px] h-[43px] flex items-center justify-center rounded-full mt-5 border-green-1000 text-green-1000 ">Klar<img
+                                             src="images/tick.svg" class="ml-1.5" alt=""></a>
+                              </div>
+                              <div class="border-b border-gray-2100 pt-16 pb-[50px]">
+                                   <h6 class="text-black-1400 mb-1 text-2xl font-semibold leading-8">3. Merinfo</h6>
+                                   <span class="text-sm text-gray-2000 font-medium leading-[26px] tracking-[0.7px]">Signering
+                                        med BankID </span>
+                                   <ul class="mt-8">
+                                        <li
+                                             class="text-sm mb-3 font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                             1.
+                                             Följ denna<a href="https://mrkoll.se/om/andra-uppgifter/"
+                                                  class="underline font-bold"> länken.</a> </li>
+                                        <li
+                                             class="text-sm mb-3 font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                             2.
+                                             <a href="https://mrkoll.se/om/andra-uppgifter/" class=" font-bold">
+                                                  Välj Jag vill ta bort mig</a>
+                                        </li>
+                                        <li
+                                             class="text-sm mb-3 font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                             3. Ange ditt personnr och
+                                             <a href="https://mrkoll.se/om/andra-uppgifter/" class="font-bold">
+                                                  Logga in med Mobilt BankID,</a>
+                                        </li>
+                                        <li
+                                             class="text-sm mb-3 font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                             4. Du kan nu stänga ner hemsidan. </li>
+
+                                   </ul>
+                                   <p class="text-sm mt-7 font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                        Du blir snart borttagen från deras hemsida efter handläggning och de kan komma
+                                        till att lägga ut din information igen. Vi notifierar dig direkt när dem åter
+                                        publicerat din information.
+                                   </p>
+                                   <p class="text-sm mt-12 font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                        Tryck på Klar när du har följt alla steg så vi kan registrera detta moment i vår
+                                        databas.
+                                   </p>
+                                   <a href="#"
+                                        class="text-sm font-semibold leading-[22.5px] border-[1.5px] w-[155px] h-[43px] flex items-center justify-center rounded-full mt-5 border-green-1000 text-green-1000 ">Klar<img
+                                             src="images/tick.svg" class="ml-1.5" alt=""></a>
+                              </div>
+                              <div class="border-b border-gray-2100 pt-16 pb-[50px]">
+                                   <div class="flex items-center justify-between">
+                                        <h6 class="text-black-1400 mb-1 text-2xl font-semibold leading-8">4. Hitta.se
+                                        </h6>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="4" viewBox="0 0 19 4"
+                                             fill="none">
+                                             <path d="M18.1815 3V3.5H17.6815H1H0.5V3V1.17389V0.673889H1H17.6815H18.1815V1.17389V3Z"
+                                                  fill="#FD4F50" stroke="#FD4F50" />
+                                        </svg>
+                                   </div>
+                                   <ul class="mt-8">
+                                        <li
+                                             class="text-sm mb-3 font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                             1.
+                                             Följ denna<a href="https://mrkoll.se/om/andra-uppgifter/"
+                                                  class="underline font-bold"> länken.</a> </li>
+                                        <li
+                                             class="text-sm mb-3 font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                             2. Fyll i formuläret steg för steg, noggrant och korrekt.</a>
+                                        </li>
+                                        <li
+                                             class="text-sm mb-3 font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                             3. Under “Ämne”
+                                             <a href="https://mrkoll.se/om/andra-uppgifter/" class="font-bold">
+                                                  Välj Privat</a>
+                                        </li>
+                                        <li
+                                             class="text-sm mb-3 font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                             <a href="https://mrkoll.se/om/andra-uppgifter/" class="font-bold"> 4. Under
+                                                  UR-Länk,</a> behöver du delge dem din profils URL (Webbadress länk) på
+                                             hitta.se
+                                        </li>
+                                        <li
+                                             class="text-sm mb-3 flex items-center font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                             <svg class="mr-3" xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+                                                  viewBox="0 0 12 12" fill="none">
+                                                  <path d="M6 0C2.69053 0 0 2.69053 0 6C0 9.32211 2.69053 12 6 12C9.30947 12 12 9.30947 12 6C12 2.69053 9.30947 0 6 0ZM6 9.1579L5.10316 8.26105L6.78316 6.56842H2.84211V5.41895H6.79579L5.10316 3.73895L6 2.84211L9.1579 6L6 9.1579Z"
+                                                       fill="#E6E6E6" />
+                                             </svg><span class="flex-1">Gå in på hitta.se</span>
+                                        </li>
+                                        <li
+                                             class="text-sm mb-3 flex items-center font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                             <svg class="mr-3" xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+                                                  viewBox="0 0 12 12" fill="none">
+                                                  <path d="M6 0C2.69053 0 0 2.69053 0 6C0 9.32211 2.69053 12 6 12C9.30947 12 12 9.30947 12 6C12 2.69053 9.30947 0 6 0ZM6 9.1579L5.10316 8.26105L6.78316 6.56842H2.84211V5.41895H6.79579L5.10316 3.73895L6 2.84211L9.1579 6L6 9.1579Z"
+                                                       fill="#E6E6E6" />
+                                             </svg><span class="flex-1">Sök på ditt egna namn och hitta din egna profil.
+                                                  Kopiera din
+                                                  URL-Länk (Webbadress länk)</span>
+                                        </li>
+                                        <li
+                                             class="text-sm mb-10 flex items-center font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                             <svg class="mr-3" xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+                                                  viewBox="0 0 12 12" fill="none">
+                                                  <path d="M6 0C2.69053 0 0 2.69053 0 6C0 9.32211 2.69053 12 6 12C9.30947 12 12 9.30947 12 6C12 2.69053 9.30947 0 6 0ZM6 9.1579L5.10316 8.26105L6.78316 6.56842H2.84211V5.41895H6.79579L5.10316 3.73895L6 2.84211L9.1579 6L6 9.1579Z"
+                                                       fill="#E6E6E6" />
+                                             </svg><span class="flex-1">Kopiera och klistra in länken i under “UR-länk
+                                                  till sidan ert ärende
+                                                  gäller på Hitta.se”</span>
+                                        </li>
+                                        <li
+                                             class="text-sm mb-3 font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                             5. <a href="https://mrkoll.se/om/andra-uppgifter/" class="font-bold mr-1">
+                                                  Under
+                                                  Beskriv ditt Ärende </a> så skriver du likt nedan,<span
+                                                  class="text-orange-1000 font-bold"> viktigt att du
+                                                  fyller i ditt egna personnr:</span>
+                                        </li>
+                                   </ul>
+                                   <p class="text-sm mt-7 font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                        ”Hej, Jag vill att ni tar bort mina uppgifter från er offentliga
+                                        sökmotor.<br>Mitt
+                                        personnr är XXXXXXX-XXXX.”
+                                   </p>
+                                   <p class="text-sm mt-7 font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                        6. Klicka sedan på “Skicka”
+                                   </p>
+                                   <p class="text-sm mt-7 font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                        Vi håller koll och notifierar dig när dina uppgifter är borttagna från deras
+                                        hemsida.
+                                   </p>
+                                   <p class="text-sm mt-12 font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                        Tryck på Klar när du har följt alla steg så vi kan registrera detta moment i vår
+                                        databas.
+                                   </p>
+                                   <ul class="flex items-center mt-7">
+                                        <li> <a href="#"
+                                                  class="text-sm font-semibold leading-[22.5px] border-[1.5px] w-[155px] h-[43px] flex items-center justify-center rounded-full  border-green-1000 text-green-1000 ">Klar<img
+                                                       src="images/tick.svg" class="ml-1.5" alt=""></a></li>
+                                        <li class="ml-6"> <a href="#"
+                                                  class="text-sm font-semibold leading-[22.5px]  w-[155px] h-[43px] md:flex hidden items-center justify-center rounded-ful text-gray-1200 "><img
+                                                       src="images/rota.svg" class="mr-2" alt="">Registrerar
+                                                  data..</a></li>
+                                   </ul>
+
+                              </div>
+                              <div class="border-b border-gray-2100 pt-16 pb-[50px] md:block hidden">
+                                   <div class="flex items-center justify-between">
+                                        <h6 class="text-black-1400 mb-1 text-2xl font-semibold leading-8">6. Ratsit
+                                        </h6>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="4" viewBox="0 0 19 4"
+                                             fill="none">
+                                             <path d="M18.1815 3V3.5H17.6815H1H0.5V3V1.17389V0.673889H1H17.6815H18.1815V1.17389V3Z"
+                                                  fill="#FD4F50" stroke="#FD4F50" />
+                                        </svg>
+                                   </div>
+                                   <ul class="mt-8">
+                                        <li
+                                             class="text-sm mb-3 font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                             1. Ladda ner blanketten </li>
+
+                                        <li
+                                             class="text-sm mb-3 font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                             <a href="https://mrkoll.se/om/andra-uppgifter/" class="font-bold">
+                                                  2. Ta foto på ditt ID-Kort,</a> och skriv ut både bild på ditt ID-Kort
+                                             samt
+                                             blanketten
+
+                                        </li>
+                                        <li
+                                             class="text-sm mb-3 font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                             3. Skicka in ditt brev till
+                                        </li>
+                                        <li
+                                             class="text-sm mb-3 flex items-center font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                             4. Du kan nu stänga ner hemsidan.
+                                        </li>
+                                   </ul>
+                                   <p class="text-sm mt-7 font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                        Du blir snart borttagen från deras hemsida efter handläggning och de kan komma
+                                        till att lägga ut din information igen. Vi notifierar dig direkt när dem åter
+                                        publicerat din information.
+                                   </p>
+                                   <p class="text-sm mt-12 font-normal leading-[26px] tracking-[0.7px] text-black-1400">
+                                        Tryck på Klar när du har följt alla steg så vi kan registrera detta moment i vår
+                                        databas.
+                                   </p>
+                                   <ul class="flex items-center justify-between mt-12">
+                                        <li> <a href="#"
+                                                  class="text-sm font-semibold leading-[22.5px] border-[1.5px] w-[199px] h-[43px] flex items-center justify-center rounded-full  border-gray-2100 text-gray-2300 ">Ladda
+                                                  ner blankett<svg class="ml-2" xmlns="http://www.w3.org/2000/svg"
+                                                       width="11" height="14" viewBox="0 0 11 14" fill="none">
+                                                       <path d="M5.13327 14L-6.48499e-05 8.87196L0.953918 7.91896L4.45185 11.3906V0L5.81468 0V11.3906L9.31262 7.91896L10.2666 8.87196L5.13327 14Z"
+                                                            fill="#404040" />
+                                                  </svg></a></li>
+                                        <li class="ml-6"> <a href="#"
+                                                  class="flex  items-center bg-orange-1000 w-[213px] rounded-full h-11 justify-center font-urbanist text-sm font-semibold leading-[22.5px] tracking-[0.75px] text-white">Avsluta
+                                                  registrering<svg class="ml-2" xmlns="http://www.w3.org/2000/svg"
+                                                       width="14" height="11" viewBox="0 0 14 11" fill="none">
+                                                       <path d="M14 5.13333L8.87196 10.2667L7.91896 9.31268L11.3906 5.81475H0V4.45192H11.3906L7.91896 0.953982L8.87196 0L14 5.13333Z"
+                                                            fill="white"></path>
+                                                  </svg></a></li>
+                                   </ul>
+
+                              </div>
+                              <div class="text-center max-w-[506px] mx-auto md:pt-24 pt-[58px]">
+                                   <img src="images/tick-logo.png" alt="" class="inline-block">
+                                   <h2
+                                        class="text-black-1000 text-5xl mt-5 mb-4 font-bold md:leading-[48px] leading-[58px] tracking-[2.4px]">
+                                        Klappat och klart!</h2>
+                                   <p
+                                        class="text-black-1000 md:text-lg text-base font-medium leading-7 tracking-[0.9px]">
+                                        Nu sätter
+                                        vi igång med det löpande arbetet om att informera dig ifall du dyker upp
+                                        online och kommer att ta bort dig från indexering från olika sökmotorer.</p>
+                                   <ul
+                                        class="flex sm:px-12 px-6 items-center max-w-[399px] w-full md:mt-[88px] mt-[68px] mx-auto justify-between">
+                                        <li><a href="#"
+                                                  class="text-black-1000 flex items-center text-sm font-semibold leading-[22.5px]">Frågor
+                                                  & Svar<svg class="ml-2" xmlns="http://www.w3.org/2000/svg" width="14"
+                                                       height="11" viewBox="0 0 14 11" fill="none">
+                                                       <path d="M14 5.13333L8.87196 10.2667L7.91896 9.31268L11.3906 5.81475H0V4.45192H11.3906L7.91896 0.953982L8.87196 0L14 5.13333Z"
+                                                            fill="#1A1D20" />
+                                                  </svg></a></li>
+                                        <li><a href="#"
+                                                  class="text-black-1000 text-sm font-semibold leading-[22.5px]">Logga
+                                                  ut</a></li>
+                                   </ul>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </section>
+
+          <footer class=" pt-[60px] bg-gray-1300 mb-5">
+               <div class="max-w-[1187px] mx-auto px-4">
+                    <div class="max-w-[802px] mx-auto">
+                         <img src="images/logo.svg" alt="">
+                         <div class="flex flex-wrap mt-8 justify-between">
+                              <div class="xl:w-1/3 md:w-2/6">
+                                   <div class="flex flex-wrap ">
+                                        <div class="flex flex-wrap">
+                                             <ul class="mr-[100px]">
+                                                  <li class="mb-2"><a href="#"
+                                                            class="text-sm font-medium text-black-1000 leading-[22px]">Blogg</a>
+                                                  </li>
+                                                  <li class="mb-2"><a href="#"
+                                                            class="text-sm font-medium text-black-1000 leading-[22px]">Om
+                                                            oss</a></li>
+                                                  <li><a href="#"
+                                                            class="text-sm font-medium text-black-1000 leading-[22px]">Press</a>
+                                                  </li>
+                                             </ul>
+                                             <ul>
+                                                  <li class="mb-2"><a href="#"
+                                                            class="text-sm font-medium text-black-1000 leading-[22px]">Dölj
+                                                            din indentitet</a>
+                                                  </li>
+                                                  <li class="mb-2"><a href="#"
+                                                            class="text-sm font-medium text-black-1000 leading-[22px]">Vanliga
+                                                            frågor</a></li>
+                                                  <li><a href="#"
+                                                            class="text-sm font-medium text-black-1000 leading-[22px]">Kontakta
+                                                            oss</a>
+                                                  </li>
+                                             </ul>
+                                        </div>
+                                        <div class="md:mt-[105px] mt-[33px]">
+                                             <a href="#"
+                                                  class="text-[15px] font-semibold text-black-1000 leading-[22px]">Språk</a>
+                                             <ul class="flex items-center mr-[198px]">
+                                                  <li class="mr-[2px]"><a href=" #"
+                                                            class="text-[13px] font-urbanist font-semibold leading-[22.5px] tracking-[0.65px] text-gray-1000">
+                                                            EN</a>
+                                                  </li>
+                                                  <li class="mr-[2px]"><a href="#"
+                                                            class="text-[13px] font-urbanist font-semibold leading-[22.5px] tracking-[0.65px] text-black-1000">|</a>
+                                                  </li>
+                                                  <li><a href="#"
+                                                            class="text-[13px] font-urbanist font-semibold leading-[22.5px] tracking-[0.65px] text-black-1000">SE</a>
+                                                  </li>
+                                             </ul>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="xl:w-1/3 md:w-2/6 w-full md:mt-0 mt-5">
+                                   <div class="text-center">
+                                        <h6
+                                             class="text-sm text-black-1000 font-semibold font-acid_groteskmedium leading-7 tracking-[0.7px]">
+                                             Följ oss</h6>
+                                        <ul class="flex items-center justify-center md:mb-12 mt-4">
+                                             <li><a href="#"><img src="images/insta.svg" alt=""></a></li>
+                                             <li class="mx-[18px]"><a href="#"><img src="images/facebook.svg"
+                                                            alt=""></a></li>
+                                             <li><a href="#"><img src="images/linkdin.svg" alt=""></a></li>
+
+                                        </ul>
+                                        <a href="#"
+                                             class="md:flex hidden items-center bg-transparent mx-auto w-[180px] rounded-full h-11 justify-center font-urbanist text-base font-semibold leading-[22.5px] tracking-[0.75px] text-black-1000 border border-black-1000">Kontakta
+                                             oss<svg class="ml-2" xmlns="http://www.w3.org/2000/svg" width="14"
+                                                  height="11" viewBox="0 0 14 11" fill="none">
+                                                  <path d="M14 5.13333L8.87196 10.2667L7.91896 9.31268L11.3906 5.81475H0V4.45192H11.3906L7.91896 0.953982L8.87196 0L14 5.13333Z"
+                                                       fill="#1A1D20"></path>
+                                             </svg></a>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="">
+
+                              <p
+                                   class="text-black-1000 md:mt-28 mt-20 md:text-start text-center text-xs font-normal leading-[22px]">
+                                   ©Dold Adress 2023.
+                                   Alla
+                                   rättigheter förbehållna.</p>
+                         </div>
+                    </div>
+               </div>
+          </footer>
+     </div>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+</body>
+
+</html>
